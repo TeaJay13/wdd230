@@ -6,36 +6,54 @@
     <meta name="description" content="WDD 230 - Web Frontend Development - TJ Strickland - Course assignment portal">
     <meta name="author" content="TJ Strickland">
     <title>TJ Strickland - WDD 230 - Web Frontend Development</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="icon" href="favicon.ico">
+
+    <meta property="og:title" content="TJ Strickland - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" contten="https://www.visittheusa.com/sites/default/files/styles/hero_l/public/images/hero_media_image/2019-07/84a7bcbb305e1dae853e98b686cc2603.jpeg?h=8d751e12&itok=6lWOOHel">
+    <meta property="og:url" content="https://tjstrickland.com/wdd230">
+
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <header>
-        <img src="https://www.picsum.photos/150/150" alt="TJ Strickland headshot">
-        <h1>TJ Strickland</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a><li>
-            <li><a href="lesson03/chamber-site-plan.html">Site Plan</a><li>
-            <li><a href="chamber/">Chamber</a></li>
-            <li><a href="https://www.byui.edu">BYU-Idaho</a></li>
-            <li><a href="">Scripture</a></li>
-        </ul>
+    <div id="content">
+        <header>
+            <img src="https://www.picsum.photos/150/150" alt="TJ Strickland headshot">
+            <h1>TJ Strickland</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
+                <li><a href="chamber/">Chamber</a></li>
+                <li><a href="https://www.byui.edu">BYU-Idaho</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng&id=p27#p27">Scripture</a></li>
+            </ul>
 
-    </nav>
-    <main>
-        <h2>WDD 230: Web Frontend Development I</h2>
-        <hr>
-        <section class="card">
-            <h3>Learning activities</h3>
-        </section>
+        </nav>
+        <main>
+            <h2>WDD 230: Web Frontend Development I</h2>
+            <hr>
+            <section class="card">
+                <h3>Learning activities</h3>
+                <ul>
+                    <li>Week 1: <a href='#'> Lesson 1</a></li>
+                </ul>
+            </section>
 
-        <section class="card">
-            <h3>Information</h3>
-        </section>
-        
-    </main>
-    <footer>
-
-    </footer>
+            <section class="card">
+                <h3>Information</h3>
+                    <p>Weather Info:Placeholder</p>
+                    <p>Times Visited: Placeholder</p>
+            </section>
+            
+        </main>
+        <footer>
+            <p>&copy;<span id='currentYear'></span> - TJ Strickland - Idaho, USA</p>
+            <p id='lastModified'></p>
+        </footer>
+    </div>
+    </body>
 </body>
 </html>
