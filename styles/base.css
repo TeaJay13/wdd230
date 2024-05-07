@@ -77,9 +77,20 @@ footer p{
 
 .card h3{
     background-color: var(--header-color);
-    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 1rem;
    
 }
+.card{
+    border: 1px var(--header-color) solid;
+    margin: 1rem;    
+}
+
+.car p {
+    padding: 1rem;
+}
+
 #content > main > section:nth-child(3) > ul > li{
     list-style: none;
 }
