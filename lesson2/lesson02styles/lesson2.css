@@ -1,0 +1,87 @@
+
+:root{
+    --shadow: rgb(0, 0, 53);
+    --header-background:  #D90429;
+    --body-background:  #EDF2F4;
+}
+
+body{
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    background-color: var(--body-background)
+}
+
+header section{
+    background-color: var(--header-background);
+    color: white;
+    box-shadow: 3px 3px var(--shadow);
+    text-align: center;
+    padding: 1rem;
+}
+
+main section{
+    border: 1px grey solid;
+    margin: .5rem;
+    box-shadow: 3px 3px var(--shadow);
+}
+
+main section p{
+    padding: 1rem;    
+}
+
+main section h3{
+    background-color: var(--header-background);
+    color: white;
+    padding: 1rem;
+    margin-block-start: 0px;
+    text-align: center;
+}
+
+@media screen and (min-width: 640px){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .section3{
+        grid-column: 1/3;
+    }
+
+    .section3 img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1050px){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .section3{
+        grid-column: 3/4;
+    }
+
+    .section3 img{
+        width: auto;
+    }
+
+}
+
+body > main > section:nth-child(1) > p:nth-child(3) > img{
+
+    width: 100%;
+    height: auto;
+}
+
+body > main > section:nth-child(2) > p:nth-child(3) > img{
+
+    width: 100%;
+    height: auto;
+}
+
+body > main > section.section3 > p:nth-child(3) > img{
+
+    width: 100%;
+    height: auto;
+}
