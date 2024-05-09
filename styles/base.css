@@ -10,19 +10,57 @@ body{
     font-family: "Montserrat", sans-serif;
     background-color: var(--background-color);
 }
+
 #content{
     max-width : 800px;
     margin: 0 auto;
 }
 
-main{
-   
-    display: grid;
-    grid-template-columns: 1fr;
-    
+#topheader{
+    display: flex;
+    text-align: center;    
+    background-color: var(--header-color);
+    border-radius: 10px;
 }
-ul{
+
+#menu-button{    
+    background-color: inherit;
+    font-size: 2rem;
+    padding: .5rem;
+}
+
+#menu-button::before{
+    content: "≡";
+}
+
+#menu-button.open::before{
+    content: "X";
+}
+
+nav ul{
+    background-color: var(--accent-color);
     list-style: none;
+    text-align: center;
+    padding-inline-start: 0px;
+    display: none;
+
+}
+nav ul.open{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+nav ul li{
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    /*padding-inline-start: 10px;*/
 }
 
 header{
@@ -35,25 +73,23 @@ header img{
     height:150px;
     margin: 20px;
 }
+
 header h1{
     color: var(--background-color);
     text-align: center;
-    margin-top: 40px;
+    margin-top: 5px;
 }
 
-#content nav ul{
-    background-color: var(--accent-color);
+main{
+   
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+ul{
+    list-style: none;
+}
 
-}
-nav ul li{
-    text-align: center;
-    padding: 20px;
-}
-nav ul li a{
-    color: white;
-    text-decoration: none;
-    /*padding-inline-start: 10px;*/
-}
 main h2{
     text-align: center;
 
