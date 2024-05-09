@@ -29,12 +29,8 @@ body{
     padding: .5rem;
 }
 
-#menu-button::before{
-    content: "≡";
-}
-
-#menu-button.open::before{
-    content: "X";
+.navbar{
+    display: none;
 }
 
 nav ul{
@@ -45,10 +41,11 @@ nav ul{
     display: none;
 
 }
+
 nav ul.open{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    display: block;
+    
+    text-align: center;
 }
 
 nav ul li{
@@ -125,8 +122,4 @@ footer p{
 
 .card p {
     padding: 1rem;
-}
-
-#content > main > section:nth-child(3) > ul > li{
-    list-style: none;
 }
