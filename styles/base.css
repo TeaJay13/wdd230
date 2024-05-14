@@ -29,6 +29,10 @@ body{
     padding: .5rem;
 }
 
+#menu-icon{
+    color: var(--background-color);
+}
+
 .nav{
     display: none;
 }
