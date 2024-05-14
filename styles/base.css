@@ -104,11 +104,11 @@ ul{
 }
 
 #learning-activites li a:visited{
-    color: var(--header-color);
+    color: var(--accent-color);
 }
 
 #learning-activites li a:hover{
-    color: var(--header-color);
+    color: var(--accent-color);
 }
 
 
