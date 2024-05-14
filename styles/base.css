@@ -65,6 +65,11 @@ nav ul li a{
 
 nav ul li:hover{
     background-color: var(--header-color);
+    border: 5px solid var(--accent-color);
+}
+
+nav ul li a:hover{
+    color: var(--accent-color);
 }
 
 header{
@@ -93,6 +98,19 @@ main{
 ul{
     list-style: none;
 }
+
+#learning-activites li a:link{
+    color: var(--header-color);
+}
+
+#learning-activites li a:visited{
+    color: var(--header-color);
+}
+
+#learning-activites li a:hover{
+    color: var(--header-color);
+}
+
 
 main h2{
     text-align: center;
