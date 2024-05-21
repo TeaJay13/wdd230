@@ -30,7 +30,23 @@
         margin: 1rem;
         border: 1px solid black;
         border-radius: 10px;
+    }
 
+    #Openings{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 1rem;
+        margin-right: 2.5rem;
+    }
 
+    #Camelotimage{
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    #opening{
+        border: 1px solid black;
+        border-radius: 10px;
     }
 }
