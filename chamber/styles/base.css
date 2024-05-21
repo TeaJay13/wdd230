@@ -60,8 +60,11 @@ nav ul li a{
 }
 
 nav ul li:hover{
-    background-color: var(--header-color);
+    background-color: var(--background-color);
     border: 5px solid var(--accent-color);
+    border: 1px black solid;
+    border-radius: 10px;
+    margin: 5px;
 }
 
 nav ul li a:hover{
