@@ -83,7 +83,7 @@ header img{
 }
 
 header h1{
-    color: var(--background-color);
+    color: var(--primary-color);
     text-align: center;
     margin-top: 5px;
 }
@@ -91,4 +91,21 @@ header h1{
 #Camelotimg{
     width: 400px;
     height: auto;
+}
+
+#Camelotimage{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#opening{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#member{
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
 }
