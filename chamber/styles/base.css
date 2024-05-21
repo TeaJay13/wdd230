@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+    --background-color: #780000;
+    --primary-color: #FDF0D5;
+    --accent-color: #edc531;
+}
+
+#topheader{
+    display: flex;
+    text-align: center;    
+    background-color: var(--header-color);
+    border-radius: 10px;
+}
+
+
+#menu-button{    
+    background-color: inherit;
+    font-size: 2rem;
+    padding: .5rem;
+}
+
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.nav{
+    display: none;
+}
+
+nav ul{
+    background-color: var(--accent-color);
+    list-style: none;
+    text-align: center;
+    padding-inline-start: 0px;
+    display: none;
+
+}
+
+nav ul.open{
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+nav ul li{
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    /*padding-inline-start: 10px;*/
+}
+
+nav ul li:hover{
+    background-color: var(--header-color);
+    border: 5px solid var(--accent-color);
+}
+
+nav ul li a:hover{
+    color: var(--accent-color);
+}
+
+header{
+    display:grid;
+    background-color: var(--header-color);
+    border-radius: 10px;
+}
+
+header img{
+    height:150px;
+    margin: 20px;
+}
+
+header h1{
+    color: var(--background-color);
+    text-align: center;
+    margin-top: 5px;
+}

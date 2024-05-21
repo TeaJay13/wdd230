@@ -1,0 +1,21 @@
+@media screen and (min-width: 800px) {
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav ul.open{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #menu-button{
+        display: none;
+    }
+}
