@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Chamber Site Project - TJ Strickland - Chamber Site">
+    <meta name="author" content="TJ Strickland">
+
+    <meta property="og:title" content="TJ Strickland - WDD 230 - Chamber Site Project">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tjstrickland.com/wdd230">
+
+
+    <title>TJ Strickland - WDD 230 - Round-Table Chamber</title>
+    <link rel:="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+   
+
+    
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
+
+
+</head>
+<body>
+    <div id="content">
+        <header>
+            <div id="'topheader">
+                <img src="wdd230/chamber/images/Somerset.webp" alt="CamelotTown">
+                <h1>Round Table Chamber</h1>
+            </div>
+
+            <button id="menu-button" onclick="toggleMenu()">
+                <span id="menu-icon">&#x2261;</span> 
+
+                <nav>
+                    <ul class="nav-button">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Discovery</a></li>
+                        <li><a href="#">Directory</a></li>
+                        <li><a href="#">Join</a></li>
+                    </ul>
+                </nav>
+                
+            </button>
+            <nav>
+                <ul class="nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Discovery</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                </ul>
+            </nav>
+
+        </header>  
+
+        <main>
+            <div id="weather">
+                <h2>Local Weather</h2>
+                <p>Check back soon for local weather updates.</p>
+            </div>
+            <div id="Events">
+                <h2>Upcoming Events</h2>
+                <p>Check back soon for upcoming events.</p>
+            </div>
+            <h2>Member Spotlight</h2>
+            <div id="members>"
+                <div id="member1">
+                    <h3>Sir Lancelot</h3>
+                    <p>Sir Lancelot is a business owner and a member of the Round Table Chamber. He is dedicated to the growth and prosperity of his business and his community. He is a valued member of our organization and we are proud to have him as a member.
+                </div>
+                <div id = 'member2'>
+                    <h3>Squire Girflet</h3>
+                    <p>Squire Girflet is a young professional who is new to the Round Table Chamber. He is eager to learn and grow and is excited to be a part of our organization. We are happy to have him as a member and look forward to seeing him grow and succeed.
+                </div>
+                <div id = 'member3'>
+                    <h3>King Arthur</h3>
+                    <p>King Arthur is the leader of the Round Table Chamber. He is dedicated to the success and prosperity of the organization and its members. He is a strong and wise leader who is committed to the growth and development of the Round Table Chamber.
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy;<span id='currentYear'></span> - TJ Strickland - Idaho, USA</p>
+            <p id='lastModified'></p>
+        </footer>
+    </div>
+</body>
+</html>
