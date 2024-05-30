@@ -6,6 +6,7 @@
     --primary-color: #FDF0D5;
     --secondary-color: #912B2C;
     --accent-color: #edc531;
+    --text-color: black;
 }
 
 #topheader{
@@ -30,7 +31,7 @@ body{
     text-align: center;
 }
 
-.nav{
+#menu-list{
     display: none;
 }
 
@@ -112,4 +113,22 @@ header h1{
     border-radius: 10px;
     color: var(--background-color);
     background-color: var(--primary-color);
+}
+
+#dark-mode{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    height: 2rem;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#dark-mode ::before{
+    content: "🌙";
+}   
+
+#dark-mode ::after{
+    content: "☀️";
 }

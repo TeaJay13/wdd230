@@ -6,40 +6,40 @@
     <meta name="description" content="WDD 230 - Chamber Site Project - TJ Strickland - Chamber Site">
     <meta name="author" content="TJ Strickland">
 
-    <meta property="og:title" content="TJ Strickland - WDD 230 - Chamber Site Project">
+    <meta property="og:title" content="Round Table Chamber of Commerce">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://tjstrickland.com/wdd230">
+    <meta property="og:url" content="https://roundtablechamber.gov">
+    <meta property="og:email" content="www.roundtablechamber@gmail.com">
 
-
-    <title>TJ Strickland - WDD 230 - Round-Table Chamber</title>
-    <link rel:="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <title>Round Table Chamber of Commerce</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
-   
 
-    
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/darkmode.js" defer></script>
 </head>
+
 <body>
     <div id="content">
         <header>
             <div id="topheader">
                 <h1>Round Table Chamber</h1>
+                <button id="dark-mode">Dark Mode</button>
             </div>
 
             <button id="menu-button" onclick="toggleMenu()">
                 <span id="menu-icon">&#x2261;</span> 
 
-                <nav>
+                <li id="menu-list">
                     <ul class="nav-button">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Discovery</a></li>
                         <li><a href="#">Directory</a></li>
                         <li><a href="#">Join</a></li>
                     </ul>
-                </nav>
+                </li>
                 
             </button>
             <nav>
