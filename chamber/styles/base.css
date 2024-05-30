@@ -1,134 +1,142 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-:root{
-    /*--background-color: #780000;*/
-    --background-color: #651214;
-    --primary-color: #FDF0D5;
-    --secondary-color: #912B2C;
+/* Root variables for theme colors */
+:root {
+    --background-color: #FDF0D5;
+    --header-color: #651214;
+    --card-color: #912B2C;
     --accent-color: #edc531;
     --text-color: black;
 }
 
-#topheader{
+/* Top header styling */
+#topheader {
     display: grid;
     text-align: center;    
-    background-color: var(--secondary-color);
+    background-color: var(--header-color);
     border-radius: 10px;
+    color: var(--background-color);
 }
 
-
-#menu-button{    
+/* Menu button styling */
+#menu-button {    
     background-color: inherit;
     font-size: 2rem;
-    padding: .5rem;
+    padding: 0.5rem;
+    color: var(--background-color);
 }
 
-
-body{
+/* Body styling */
+body {
     font-family: 'Lato', sans-serif;
     background-color: var(--background-color);
-    color: var(--primary-color);
     text-align: center;
+    color: var(--text-color);
 }
 
-#menu-list{
+/* Menu list styling */
+#menu-list {
     display: none;
 }
 
-nav ul{
-    background-color: var(--accent-color);
+/* Navigation styling */
+nav ul {
+    background-color: var(--card-color);
     list-style: none;
     text-align: center;
-    padding-inline-start: 0px;
+    padding-inline-start: 0;
     display: none;
-
 }
 
-nav ul.open{
+nav ul.open {
     display: block;
     align-items: center;
     text-align: center;
 }
 
-nav ul li{
+nav ul li {
     text-align: center;
     padding: 20px;
 }
 
-nav ul li a{
+nav ul li a {
     display: block;
-    color: black;
+    color: var(--background-color);
     text-decoration: none;
-    /*padding-inline-start: 10px;*/
 }
 
-nav ul li:hover{
-    background-color: var(--background-color);
-    border: 5px solid var(--accent-color);
-    border: 1px black solid;
+nav ul li:hover {
+    background-color: var(--text-color);
+    border: 1px solid var(--header-color);
     border-radius: 10px;
     margin: 5px;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: var(--accent-color);
 }
 
-header{
-    display:grid;
-    background-color: var(--header-color);
+/* Header styling */
+header {
+    display: grid;
+    background-color: var(--background-color);
     border-radius: 10px;
 }
 
-header h1{
-    color: var(--primary-color);
+header h1 {
+    color: var(--background-color);
     text-align: center;
     margin-top: 5px;
 }
 
-#Camelotimg{
+/* Image styling */
+#Camelotimg {
     width: 400px;
     height: auto;
     border-radius: 10%;
-    border: 1px solid black;;
+    border: 1px solid var(--header-color);
 }
 
-#Camelotimage{
-    border: 1px solid black;
+#Camelotimage {
+    border: 1px solid var(--header-color);
     border-radius: 10px;
 }
 
-#opening{
-    border: 1px solid black;
+/* Opening section styling */
+#opening {
+    border: 1px solid var(--header-color);
     border-radius: 10px;
-    color: var(--background-color);
-    background-color: var(--primary-color);
+    background-color: var(--background-color);
     padding: 1rem;
+    color: var(--text-color);
 }
 
-#member{
+/* Member section styling */
+#member {
     padding: 1rem;
     margin: 1rem;
-    border: 1px solid black;
+    border: 1px solid var(--header-color);
     border-radius: 10px;
-    color: var(--background-color);
-    background-color: var(--primary-color);
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
-#dark-mode{
+/* Dark mode button styling */
+#dark-mode {
     position: absolute;
     top: 1rem;
     right: 1rem;
     height: 2rem;
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid var(--header-color);
     border-radius: 10px;
+    color: var(--text-color);
 }
 
-#dark-mode ::before{
+#dark-mode::before {
     content: "🌙";
-}   
+}
 
-#dark-mode ::after{
+#dark-mode::after {
     content: "☀️";
 }
