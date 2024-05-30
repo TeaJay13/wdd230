@@ -33,7 +33,7 @@ body{
     color: var(--background-color);
 }
 
-.nav{
+#menu-list{
     display: none;
 }
 
@@ -43,7 +43,6 @@ nav ul{
     text-align: center;
     padding-inline-start: 0px;
     display: none;
-
 }
 
 nav ul.open{
