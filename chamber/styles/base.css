@@ -26,6 +26,12 @@
     color: var(--background-color);
 }
 
+#menu-icon {
+    display: block;
+    text-align: center;
+    color: var(--accent-color);
+}
+
 /* Body styling */
 body {
     font-family: 'Lato', sans-serif;
