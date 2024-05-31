@@ -118,7 +118,7 @@ header h1 {
 }
 
 /* Member section styling */
-#member {
+.member {
     padding: 1rem;
     margin: 1rem;
     border: 1px solid var(--header-color);
