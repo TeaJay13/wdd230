@@ -12,46 +12,46 @@ body{
 }
 
 #content{
-    max-width : 800px;
+    max-width: 800px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 #topheader{
     display: flex;
-    text-align: center;    
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--header-color);
     border-radius: 10px;
+    padding: 10px;
 }
 
 #menu-button{    
     background-color: inherit;
     font-size: 2rem;
     padding: .5rem;
+    border: none;
+    cursor: pointer;
 }
 
 #menu-icon{
     color: var(--background-color);
 }
 
-#menu-list{
-    display: none;
-}
-
 nav ul{
     background-color: var(--accent-color);
     list-style: none;
-    text-align: center;
-    padding-inline-start: 0px;
+    padding: 0;
     display: none;
+    flex-direction: column;
+    margin: 0;
 }
 
 nav ul.open{
-    display: block;
-    text-align: center;
+    display: flex;
 }
 
 nav ul li{
-    text-align: center;
     padding: 20px;
 }
 
@@ -59,12 +59,10 @@ nav ul li a{
     display: block;
     color: white;
     text-decoration: none;
-    /*padding-inline-start: 10px;*/
 }
 
 nav ul li:hover{
     background-color: var(--header-color);
-    border: 5px solid var(--accent-color);
 }
 
 nav ul li a:hover{
@@ -72,28 +70,31 @@ nav ul li a:hover{
 }
 
 header{
-    display:grid;
-    grid-template-columns:1fr 4fr;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--header-color);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 header img{
-    height:150px;
-    margin: 20px;
+    height: 100px;
+    width: auto;
 }
 
 header h1{
     color: var(--background-color);
-    text-align: center;
-    margin-top: 5px;
+    margin: 0;
 }
 
 main{
-   
     display: grid;
     grid-template-columns: 1fr;
-    
+    gap: 20px;
+    margin: 20px 0;
 }
+
 ul{
     list-style: none;
 }
@@ -110,11 +111,10 @@ ul{
     color: var(--accent-color);
 }
 
-
 main h2{
     text-align: center;
-
 }
+
 main h3{
     text-align: center;
     color: var(--background-color);
@@ -124,12 +124,11 @@ main h3{
 footer{
     text-align: center;
     background-color: var(--header-color);
-
+    padding: 10px;
 }
 
 footer p{
     color: var(--background-color);
-    padding: 10px;
 }
 
 .card h3{
@@ -137,11 +136,12 @@ footer p{
     color: white;
     margin: 0;
     padding: 1rem;
-   
 }
+
 .card{
     border: 1px var(--header-color) solid;
     margin: 1rem;    
+    border-radius: 10px;
 }
 
 .card p {
@@ -149,15 +149,12 @@ footer p{
 }
 
 .googleMap{
-    margin: 0;
     margin-top: 1rem;
     width: 100%;
-    height: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .googleMap iframe{
@@ -171,23 +168,25 @@ footer p{
     text-align: center;
 }
 
-#temple-banner{
- position: absolute;
-}
-
-#temple-banner > img{
+#temple-banner {
+    position: relative;
     width: 100%;
-    height: 100%;
+    margin: 20px 0;
 }
 
-#temple-label{
+#temple-banner > img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+#temple-label {
     padding: 1rem;
     border-radius: 10px;
-    height : 40px;
-    width: 100px;
     background-color: var(--header-color);
     color: var(--background-color);
-    position: relative;
-    top : 10px;
-    left : 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
