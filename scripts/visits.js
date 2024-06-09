@@ -10,7 +10,7 @@ function getNumberOfVisits() {
     else {
         visitcount = parseInt(visitcount)
     }
-    visitcount = visitcount +1
+    visitcount = visitcount + 1
     localStorage.setItem('site-visits', `${visitcount}`)
     return visitcount
 }
