@@ -37,6 +37,9 @@
     #discover-content {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 20px;
+        gap: 10px;
+    }
+    figure:hover {
+        box-shadow: 0 0 50px #333;
     }
 }
