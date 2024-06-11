@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Chamber Site Project - TJ Strickland - Chamber Site">
+    <meta name="author" content="TJ Strickland">
+
+    <meta property="og:title" content="Round Table Chamber of Commerce Discover">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://roundtablechamber.gov">
+    <meta name="contact" content="www.roundtablechamber@gmail.com">
+
+    <title>Round Table Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+
+    <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/header-footer.js" defer></script>
+    <script src="scripts/datemath.js" defer></script>
+</head>
+
+
+
+<body>
+    <div id="content">
+        <header>
+            <div id="topheader">
+                <h1>Round Table Chamber</h1>
+                <button id="dark-mode">Dark Mode</button>
+            </div>
+            <button id="menu-button" onclick="toggleMenu()">
+                <span id="menu-icon">&#x2261;</span> 
+            </button>
+            <nav>
+                <ul class="nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Discovery</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                </ul>
+            </nav>
+        </header>  
+
+        <main>
+            <div id="discover-content">
+                <div id="left-column">
+                    <h2>Discover</h2>
+                    <section class="card">
+                        <h3>Activites</h3>
+                        <p>Upcoming Activities:</p>
+                        <ul>
+                            <li>
+                                <h2>HEMA Sword Training</h2>
+                                <p>Historical European Martial Arts (HEMA) sword training sessions where participants learn the art of swordsmanship. Practitioners hone their skills with longswords, rapiers, and other medieval weapons, mastering techniques used by knights of old.</p>
+                            </li>
+                            <li>
+                                <h2>Archery Contest</h2>
+                                <p>Marksmen and women showcase their precision and dexterity with the bow and arrow. Competitors aim for the bullseye, demonstrating their hunting and warfare skills in a thrilling competition of accuracy and focus.</p>
+                            </li>
+                            <li>
+                                <h2>Medieval Dance Revelry</h2>
+                                <p>Festive gatherings where nobles and commoners alike enjoy lively music and traditional dances. These social events are filled with vibrant costumes, intricate footwork, and the joyous spirit of the medieval community.</p>
+                            </li>
+                    </section>
+                    <section class="card">
+                        <h3>Events</h3>
+                        <p>Upcoming Events:</p>
+                        <ul>
+                            <li>
+                                <h2>Chess Tournament</h2>
+                                <p>A strategic battle of wits where noblemen and scholars compete in the ancient game of chess. Participants employ tactics and foresight to outmaneuver their opponents, showcasing their intellectual prowess and mastery of the game.</p>
+                            </li>
+                            <li>
+                                <h2>Grand Jousting Tournament</h2>
+                                <p>The ultimate test of knightly skill and bravery, where armored knights charge at each other with lances in a dramatic display of courage and combat prowess. Spectators gather to cheer on their champions in a spectacle of chivalry.</p>
+                            </li>
+                            <li>
+                                <h2>Blacksmith Competition</h2>
+                                <p>Skilled blacksmiths demonstrate their craftsmanship in forging weapons, armor, and tools. Competitors are judged on their technique, creativity, and the quality of their creations, celebrating the essential artisans of the medieval world.</p>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="card">
+                        <h3>News</h3>
+                        <p>Recent News:</p>
+                        <ul>
+                            <li>
+                                <h2>King Arthur's Lost Sword Found in Ancient Lake</h2>
+                                <p>Archaeologists have uncovered a sword believed to be the legendary Excalibur from a lake in Cornwall. This discovery has sparked excitement among historians and enthusiasts, as the sword is adorned with intricate engravings and jewels, matching descriptions from ancient texts. Could this be the key to unlocking more secrets of Camelot?</p>
+                            </li>
+                            <li>
+                                <h2>The Return of Merlin: New Manuscripts Unearthed</h2>
+                                <p>In a stunning revelation, a collection of ancient manuscripts detailing the life and prophecies of Merlin the Wizard has been found in a monastery's hidden chamber. Scholars are poring over the texts, which include new insights into Merlin's role in the rise of King Arthur and the mystical events that shaped the kingdom.</p>
+                            </li>
+                            <li>
+                                <h2>Quest for the Holy Grail: A Modern-Day Adventure</h2>
+                                <p>A group of historians and adventurers have embarked on an epic quest to trace the true location of the Holy Grail. Drawing on newly decoded medieval maps and clues from Arthurian legends, the team hopes to uncover one of history's greatest mysteries. Follow their journey as they navigate treacherous terrain and ancient riddles in search of the sacred relic.</p>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="card">
+                        <h3>Dates</h3>
+                        <p>Current Date and Last Visit:</p>
+                        <ul>
+                            <li>
+                                <h4>Current Date</h4>
+                                <p><span id="currentDate"></span></p>
+                            </li>
+                            <li>
+                                <h4>Last Visited</h4>
+                                <p><span id="lastVisited"></span></p>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+
+                <div id="right-column">
+                 <!--6 image tags with captions -->
+                    <figure>
+                        <img loading="lazy" src="images/HemaEdited.webp" alt="HEMA Sword Training">
+                        <figcaption>HEMA Sword Training</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img loading="lazy" src="images/ArcheryEdited.webp" alt="Archery Contest">
+                        <figcaption>Archery Contest</figcaption>
+                    </figure>
+                    
+                    <figure>
+                        <img loading="lazy" src="images/DanceEdited.webp" alt="Medieval Dance Revelry">
+                        <figcaption>Medieval Dance Revelry</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img loading="lazy" src="images/ChessEdited.webp" alt="Chess Tournament">
+                        <figcaption>Chess Tournament</figcaption>
+                    </figure>
+                    
+                    <figure>
+                        <img loading="lazy" src="images/JoustingEdited.webp" alt="Grand Jousting Tournament">
+                        <figcaption>Grand Jousting Tournament</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img loading="lazy" src="images/ForgingEdited.webp" alt="Blacksmith Competition">
+                        <figcaption>Blacksmith Competition</figcaption>
+                    </figure>
+                </div>    
+            </div>
+        </main>
+        <footer>
+            <p>Chamber site Project</p>
+            <p>&copy;<span id='currentYear'></span> - TJ Strickland - Idaho, USA</p>
+            <p id='lastModified'></p>
+            <!--Chess Photo by Maarten van den Heuvel, https://unsplash.com/@mvdheuvel?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash -->
+            <!--Forging Photo by j.mt_photography, https://www.pexels.com/photo/man-forging-metal-3680094/ -->
+            <!--Joust Photo by  Matt Benson, https://unsplash.com/photos/a-man-dressed-in-armor-and-holding-a-green-shield-WiM_R-htrNU?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash -->
+            <!---Hema Photo by Casper Johansson, https://unsplash.com/@cabbejj?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash -->
+            <!-- Dance Photo by PublicDomainPictures, https://pixabay.com/users/publicdomainpictures-14/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=276019 -->
+            <!-- Archery Photo by semih kukçu: https://www.pexels.com/photo/people-shooting-with-bows-18278540/ -->
+        </footer>
+    </div>
+</body>
+</html>

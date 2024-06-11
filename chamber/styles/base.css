@@ -184,3 +184,23 @@ header h1 {
     top: 10px;
     left: 10px;
 }
+
+/* Dicover section styling */
+.card { padding: 1rem;
+    margin: 1rem;
+    border: 1px solid var(--header-color);
+    border-radius: 10px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    list-style-type: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+figure img {
+    width: 100%; /* Make the image take 100% of the figure's width */
+    max-width: 500px; /* Ensure the image does not exceed the viewport width */
+    height: auto; /* Maintain aspect ratio */
+}

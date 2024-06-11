@@ -32,4 +32,11 @@
         padding: 1rem;
         margin-right: 2.5rem;
     }
+
+    /* Dicover section styling */
+    #discover-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
 }
