@@ -39,7 +39,7 @@
         grid-template-columns: 1fr 1fr;
         gap: 10px;
     }
-    figure:hover {
+    .discover-img:hover {
         box-shadow: 0 0 50px #333;
     }
 }

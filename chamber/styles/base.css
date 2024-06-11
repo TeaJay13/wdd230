@@ -199,8 +199,8 @@ ul{
     list-style-type: none;
 }
 
-figure img {
-    width: 100%; /* Make the image take 100% of the figure's width */
-    max-width: 500px; /* Ensure the image does not exceed the viewport width */
-    height: auto; /* Maintain aspect ratio */
+.discover-img {
+    width: 100%;
+    max-width: 500px;
+    height: auto; 
 }
