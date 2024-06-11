@@ -200,7 +200,7 @@ ul{
 }
 
 .discover-img {
-    width: 100%;
+    width: auto;
     max-width: 500px;
-    height: auto; 
+    height: 500px; 
 }
