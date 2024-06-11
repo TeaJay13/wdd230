@@ -1,0 +1,35 @@
+
+table{
+    border-collapse: collapse;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+caption{
+    caption-side: bottom;
+    font-size: 0.5rem;
+}
+
+thead{
+    background-color: black;
+    color: white;
+}
+
+thead tr:nth-child(2) td{
+    background-color: darkslategrey;
+}
+
+thead tr:nth-child(2) td:nth-child(1){
+    background-color: darkslategrey;
+}
+
+tbody tr:nth-child(even){
+    background-color: grey;
+}
+
+tbody td{
+    border: 1px solid lightgrey;
+    padding: 05.rem;
+}
