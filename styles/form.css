@@ -17,6 +17,11 @@ button{
     padding: .3rem;
 }
 
+button:hover{
+    background-color: var(--header-color-hover);
+    color: var(--header-color);
+}
+
 main{
     border: 1px solid var(--header-color);
     border-radius: 3px;
