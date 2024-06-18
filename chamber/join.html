@@ -48,39 +48,42 @@
                 <div id="join-left">
                     <h2>Join the Round Table Chamber of Commerce</h2>
                     <p>Join the Round Table Chamber of Commerce and become a part of the most prestigious business organization in the world. Our members are the best of the best and we are looking for you to join us. We have three levels of membership to choose from. Squire, Knight, and Grail Knight. Each level has its own unique benefits and features. Choose the level that best fits your needs and join us today!</p>
-                    <form action="thankyou.html" method="get">
-                        <label>First Name:<sup class="red">*</sup>
-                            <input type="text" name="firstname" id="firstname" required>
-                        </label>
-                        <label>Last Name:<sup class="red">*</sup>
-                            <input type="text" name="lastname" id="lastname" required>
-                        </label>
-                        <label>Title/Position:<sup class="red">*</sup>
-                            <input type="text" name="title" id="title" required pattern="[A-Za-Z\s-]{7,}">
-                        </label>
-                        <label>Contact Email:<sup class="red">*</sup>
-                            <input type="email" name="email" id="email" required placeholder="example@domain.com">
-                        </label>
-                        <label>Mobile Phone:<sup class="red">*</sup>
-                            <input type="tel" name="phone" id="phone" required>
-                        </label>
-                        <label>Business/Organization Name:<sup class="red">*</sup>
-                            <input type="text" name="organization" id="organization" required>
-                        </label>
-                        <label>Business/Organization Description:
-                            <input type="text" name="description" id="description"></textarea>
-                        </label>
-                        <label>Membership Level:<sup class="red">*</sup>
-                            <select name="membership" id="membership" required>
-                                <option value="bronze">Squire Membership</option>
-                                <option value="silver">Knight Membership</option>
-                                <option value="grail-knight">Grail Knight Membership</option>
-                                <option value="paladin">Champion Membership</option>
-                            </select>
-                        </label>
-                        <input type="hidden" name="timestamp" id="timestamp">
-                        <button type="submit">Submit Application</button>
-                    </form>
+
+                    <div class="form">
+                        <form action="thankyou.html" method="get">
+                            <label>First Name:<sup class="red">*</sup>
+                                <input type="text" name="firstname" id="firstname" required>
+                            </label>
+                            <label>Last Name:<sup class="red">*</sup>
+                                <input type="text" name="lastname" id="lastname" required>
+                            </label>
+                            <label>Title/Position:<sup class="red">*</sup>
+                                <input type="text" name="title" id="title" required pattern="[A-Za-Z\s-]{7,}">
+                            </label>
+                            <label>Contact Email:<sup class="red">*</sup>
+                                <input type="email" name="email" id="email" required placeholder="example@domain.com">
+                            </label>
+                            <label>Mobile Phone:<sup class="red">*</sup>
+                                <input type="tel" name="phone" id="phone" required>
+                            </label>
+                            <label>Business/Organization Name:<sup class="red">*</sup>
+                                <input type="text" name="organization" id="organization" required>
+                            </label>
+                            <label>Business/Organization Description:<sup class="red">*</sup>
+                                <input type="text" name="description" id="description" required></textarea>
+                            </label>
+                            <label><div id="join-select">Membership Level:</div><sup class="red">*</sup>
+                                <select name="membership" id="membership" required>
+                                    <option value="bronze">Squire Membership</option>
+                                    <option value="silver">Knight Membership</option>
+                                    <option value="grail-knight">Grail Knight Membership</option>
+                                    <option value="paladin">Champion Membership</option>
+                                </select>
+                            </label>
+                            <input type="hidden" name="timestamp" id="timestamp">
+                            <button type="submit">Submit Application</button>
+                        </form>
+                    </div>
                 </div>
                 <div id="join-right">
                     <h3>Membership Levels</h3>

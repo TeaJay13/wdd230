@@ -205,6 +205,24 @@ ul{
     height: 500px; 
 }
 
+/* Join section styling */
+
+#join-left {
+    border: 1px solid var(--header-color);
+    border-radius: 10px;
+    background-color: var(--background-color);
+    padding: 1rem;
+    color: var(--text-color);
+}
+
+#join-right {
+    border: 1px solid var(--header-color);
+    border-radius: 10px;
+    background-color: var(--background-color);
+    padding: 1rem;
+    color: var(--text-color);
+}
+
 /* Table section styling */
 table{
     border-collapse: collapse;
@@ -258,16 +276,18 @@ tbody tr:nth-child(even){
 }
 
 tbody td{
-    border: 1px solid lightgrey;
+    border: 1px solid black;
     padding: 05.rem;
 }
 
 /* Form section styling */
 
-label{
-    display: block;
-    text-align: left;
-    padding: 0.5rem;
+form{
+   text-align: left;
+}
+
+input{
+    width: 100%;
 }
 
 input{
