@@ -17,6 +17,7 @@ darkbutton.addEventListener("click", () => {
         document.documentElement.style.setProperty('--accent-color', '#edc531');
         document.documentElement.style.setProperty('--text-color', 'white');
         darkbutton.style.color = 'black';  // Change button text color to black
+        document.getElementById("dark-mode").innerHTML = "Light Mode ☀️";
     }
     else{
         document.documentElement.style.setProperty('--background-color', '#FDF0D5');
@@ -25,5 +26,7 @@ darkbutton.addEventListener("click", () => {
         document.documentElement.style.setProperty('--accent-color', '#edc531');
         document.documentElement.style.setProperty('--text-color', 'black');
         darkbutton.style.color = '';  // Reset button text color to default
+        document.getElementById("dark-mode").innerHTML = "Dark Mode 🌙";
     }
+    
 });
