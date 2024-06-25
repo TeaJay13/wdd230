@@ -347,6 +347,23 @@ main{
 
 /* List view styles */
 #directory-container.list-view .card {
-    width: 100%;
     display: block; /* Stack the elements */
+}
+
+#directory-container.list-view img{
+    display:none;
+}
+
+#directory-container.list-view .card h2{
+    display: inline;
+    padding: 0.3rem;
+}
+
+#directory-container.list-view .card p{
+    display: inline;
+    padding: 0.3rem;
+}
+
+#directory-container.list-view > div:nth-child(odd){
+background-color: white;
 }
