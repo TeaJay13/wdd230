@@ -339,3 +339,14 @@ main{
     margin-right: 40px;
 }
 
+/* Grid view styles */
+#directory-container.grid-view .card {
+    width: 30%; /* Adjust width as needed */
+    display: inline-block; /* Makes the elements sit side by side */
+}
+
+/* List view styles */
+#directory-container.list-view .card {
+    width: 100%;
+    display: block; /* Stack the elements */
+}

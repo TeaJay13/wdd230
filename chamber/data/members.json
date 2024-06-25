@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Company A",
+        "address": "1234 Street, City",
+        "phone": "123-456-7890",
+        "website": "https://companya.com",
+        "icon": "icon-companya.png",
+        "membershipLevel": "Gold",
+        "additionalInfo": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "name": "Company B",
+        "address": "5678 Avenue, City",
+        "phone": "987-654-3210",
+        "website": "https://companyb.com",
+        "icon": "icon-companyb.png",
+        "membershipLevel": "Silver",
+        "additionalInfo": "Consectetur adipiscing elit."
+    },
+    {
+        "name": "Company C",
+        "address": "2345 Boulevard, City",
+        "phone": "234-567-8901",
+        "website": "https://companyc.com",
+        "icon": "icon-companyc.png",
+        "membershipLevel": "Bronze",
+        "additionalInfo": "Sed do eiusmod tempor incididunt."
+    },
+    {
+        "name": "Company D",
+        "address": "3456 Drive, City",
+        "phone": "345-678-9012",
+        "website": "https://companyd.com",
+        "icon": "icon-companyd.png",
+        "membershipLevel": "Platinum",
+        "additionalInfo": "Ut labore et dolore magna aliqua."
+    },
+    {
+        "name": "Company E",
+        "address": "4567 Park, City",
+        "phone": "456-789-0123",
+        "website": "https://companye.com",
+        "icon": "icon-companye.png",
+        "membershipLevel": "Gold",
+        "additionalInfo": "Ut enim ad minim veniam."
+    },
+    {
+        "name": "Company F",
+        "address": "5678 Square, City",
+        "phone": "567-890-1234",
+        "website": "https://companyf.com",
+        "icon": "icon-companyf.png",
+        "membershipLevel": "Silver",
+        "additionalInfo": "Quis nostrud exercitation ullamco laboris."
+    },
+    {
+        "name": "Company G",
+        "address": "6789 Place, City",
+        "phone": "678-901-2345",
+        "website": "https://companyg.com",
+        "icon": "icon-companyg.png",
+        "membershipLevel": "Bronze",
+        "additionalInfo": "Nisi ut aliquip ex ea commodo consequat."
+    }
+]
