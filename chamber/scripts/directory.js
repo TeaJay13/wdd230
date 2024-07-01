@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", async function() {
     members.forEach(member => {
         const memberCard = `
             <div class="card">
-                <img src="images/${member.icon}" alt="${member.name}">
+                <img class="member-imgs"  loading="lazy" src="images/${member.icon}" alt="${member.name}">
                 <h3>${member.name}</h3>
                 <p>${member.address}</p>
                 <p>${member.phone}</p>

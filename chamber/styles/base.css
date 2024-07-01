@@ -193,6 +193,7 @@ header h1 {
     background-color: var(--background-color);
     color: var(--text-color);
     list-style-type: none;
+    box-shadow: black 5px 5px 5px;
 }
 
 .card ul{
@@ -207,6 +208,7 @@ ul{
     width: auto;
     max-width: 500px;
     height: 500px; 
+    box-shadow: black 5px 5px 5px;
 }
 
 img{
@@ -282,7 +284,7 @@ thead tr:nth-child(2) td:nth-child(1){
 }
 
 tbody tr:nth-child(even){
-    background-color: bisque;
+    background-color: rgb(99, 53, 7);
 }
 
 tbody td{
@@ -348,6 +350,9 @@ main{
 /* List view styles */
 #directory-container.list-view .card {
     display: block; /* Stack the elements */
+    border: none;
+    padding: 0;
+    box-shadow: none;
 }
 
 #directory-container.list-view img{
@@ -365,5 +370,19 @@ main{
 }
 
 #directory-container.list-view > div:nth-child(odd){
-background-color: white;
+background-color: brown;
+}
+
+#directory-container.list-view a{
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+#directory-container .member-imgs {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid var(--header-color);
+    box-shadow: black 5px 5px 5px;
 }

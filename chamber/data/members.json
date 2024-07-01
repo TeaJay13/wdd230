@@ -1,65 +1,65 @@
 [
     {
-        "name": "Company A",
-        "address": "1234 Street, City",
+        "name": "Excalibur Enterprises",
+        "address": "1 Camelot Way, Avalon",
         "phone": "123-456-7890",
-        "website": "https://companya.com",
-        "icon": "icon-companya.png",
-        "membershipLevel": "Gold",
-        "additionalInfo": "Lorem ipsum dolor sit amet."
+        "website": "https://excaliburenterprises.com",
+        "icon": "excalibur-icon.webp",
+        "membershipLevel": "Champion of the Round Table",
+        "additionalInfo": "Leading in magical arms and armor since the Age of Arthur."
     },
     {
-        "name": "Company B",
-        "address": "5678 Avenue, City",
-        "phone": "987-654-3210",
-        "website": "https://companyb.com",
-        "icon": "icon-companyb.png",
-        "membershipLevel": "Silver",
-        "additionalInfo": "Consectetur adipiscing elit."
-    },
-    {
-        "name": "Company C",
-        "address": "2345 Boulevard, City",
+        "name": "Merlin's Magical Consulting",
+        "address": "2 Druid Circle, Forest of Brocéliande",
         "phone": "234-567-8901",
-        "website": "https://companyc.com",
-        "icon": "icon-companyc.png",
-        "membershipLevel": "Bronze",
-        "additionalInfo": "Sed do eiusmod tempor incididunt."
+        "website": "https://merlinsmagic.com",
+        "icon": "merlin-icon.webp",
+        "membershipLevel": "Grail Knight",
+        "additionalInfo": "Offering sage advice and magical solutions for over a millennium."
     },
     {
-        "name": "Company D",
-        "address": "3456 Drive, City",
+        "name": "Lady of the Lake Aquatics",
+        "address": "3 Misty Waters, Avalon",
         "phone": "345-678-9012",
-        "website": "https://companyd.com",
-        "icon": "icon-companyd.png",
-        "membershipLevel": "Platinum",
-        "additionalInfo": "Ut labore et dolore magna aliqua."
+        "website": "https://ladyofthelakeaquatics.com",
+        "icon": "lady-lake-icon.webp",
+        "membershipLevel": "Grail Knight",
+        "additionalInfo": "Purveyors of fine watercraft and aquatic adventures."
     },
     {
-        "name": "Company E",
-        "address": "4567 Park, City",
+        "name": "Camelot Event Planning",
+        "address": "4 Round Table Road, Camelot",
         "phone": "456-789-0123",
-        "website": "https://companye.com",
-        "icon": "icon-companye.png",
-        "membershipLevel": "Gold",
-        "additionalInfo": "Ut enim ad minim veniam."
+        "website": "https://camelotevents.com",
+        "icon": "camelot-icon.webp",
+        "membershipLevel": "Knight",
+        "additionalInfo": "Creating legendary events that are talked about for ages."
     },
     {
-        "name": "Company F",
-        "address": "5678 Square, City",
+        "name": "Galahad's Gallant Outfitters",
+        "address": "5 Grail Quest Lane, Camelot",
         "phone": "567-890-1234",
-        "website": "https://companyf.com",
-        "icon": "icon-companyf.png",
-        "membershipLevel": "Silver",
-        "additionalInfo": "Quis nostrud exercitation ullamco laboris."
+        "website": "https://galahadsoutfitters.com",
+        "icon": "galahad-icon.webp",
+        "membershipLevel": "Knight",
+        "additionalInfo": "Equip yourself like a knight of the Round Table."
     },
     {
-        "name": "Company G",
-        "address": "6789 Place, City",
+        "name": "Morgan Le Fay's Mystical Emporium",
+        "address": "6 Sorceress Circle, Cornwall",
         "phone": "678-901-2345",
-        "website": "https://companyg.com",
-        "icon": "icon-companyg.png",
-        "membershipLevel": "Bronze",
-        "additionalInfo": "Nisi ut aliquip ex ea commodo consequat."
+        "website": "https://morganmystics.com",
+        "icon": "morgan-icon.webp",
+        "membershipLevel": "Squire",
+        "additionalInfo": "From potions to spells, find all your mystical needs met here."
+    },
+    {
+        "name": "Pendragon Real Estate",
+        "address": "7 King's Court, Camelot",
+        "phone": "789-012-3456",
+        "website": "https://pendragonrealestate.com",
+        "icon": "pendragon-icon.webp",
+        "membershipLevel": "Squire",
+        "additionalInfo": "Royal properties and noble estates for those destined to rule."
     }
 ]
