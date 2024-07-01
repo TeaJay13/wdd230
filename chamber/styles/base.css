@@ -95,7 +95,7 @@ header h1 {
     margin-top: 5px;
 }
 
-/* Image styling */
+/* Image styling
 #Camelotimg {
     width: 400px;
     height: auto;
@@ -106,26 +106,27 @@ header h1 {
 #Camelotimage {
     border: 1px solid var(--header-color);
     border-radius: 10px;
-}
+} */
 
-/* Opening section styling */
-#opening {
-    border: 1px solid var(--header-color);
-    border-radius: 10px;
-    background-color: var(--background-color);
-    padding: 1rem;
-    color: var(--text-color);
-}
-
+/* Opening section styling
 /* Member section styling */
-.member {
+/* .member {
     padding: 1rem;
     margin: 1rem;
     border: 1px solid var(--header-color);
     border-radius: 10px;
     background-color: var(--background-color);
     color: var(--text-color);
-}
+} */ 
+
+/* #opening {
+    border: 1px solid var(--header-color);
+    border-radius: 10px;
+    background-color: var(--background-color);
+    padding: 1rem;
+    color: var(--text-color);
+} */
+
 
 /* Dark mode button styling */
 #dark-mode {
@@ -172,9 +173,15 @@ header h1 {
 #hero-image {
     position: relative;
     width: 100%;
-    margin: 20px 0;
+    height: 100%;
 }
 
+/* The img element should cover the entire #hero-image container */
+#hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+}
 #hero-label {
     padding: 1rem;
     border-radius: 10px;
