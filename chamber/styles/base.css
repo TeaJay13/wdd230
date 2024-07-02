@@ -369,3 +369,26 @@ background-color: brown;
     border: 1px solid var(--header-color);
     box-shadow: black 5px 5px 5px;
 }
+
+.banner {
+    background-color: #912B2C;
+    color: #FDF0D5;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#close-banner {
+    background-color: #651214;
+    color: #FDF0D5;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 20px;
+}
+
+#close-banner:hover {
+    background-color: #580f10;
+}
