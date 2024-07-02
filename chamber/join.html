@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Chamber Site Project - TJ Strickland - Chamber Site">
+    <meta name="author" content="TJ Strickland">
+
+    <meta property="og:title" content="Round Table Chamber of Commerce Join">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://roundtablechamber.gov">
+    <meta name="contact" content="www.roundtablechamber@gmail.com">
+
+    <title>Round Table Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+
+    <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/header-footer.js" defer></script>
+    <script src="scripts/datemath.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+</head>
+
+
+
+<body>
+    <div id="content">
+        <header>
+            <div id="topheader">
+                <h1>Round Table Chamber</h1>
+                <button id="dark-mode">Dark Mode</button>
+            </div>
+            <button id="menu-button" onclick="toggleMenu()">
+                <span id="menu-icon">&#x2261;</span> 
+            </button>
+            <nav>
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discovery.html">Discovery</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                </ul>
+            </nav>
+        </header>  
+
+        <main>
+            <div id="join-content">
+                <div id="join-left">
+                    <h2>Join the Round Table Chamber of Commerce</h2>
+                    <p>Join the Round Table Chamber of Commerce and become a part of the most prestigious business organization in the world. Our members are the best of the best and we are looking for you to join us. We have three levels of membership to choose from. Squire, Knight, and Grail Knight. Each level has its own unique benefits and features. Choose the level that best fits your needs and join us today!</p>
+
+                    <div class="form">
+                        <form action="thankyou.html" method="get">
+                            <label>First Name:<sup class="red">*</sup>
+                                <input type="text" name="firstname" id="firstname" required>
+                            </label>
+                            <label>Last Name:<sup class="red">*</sup>
+                                <input type="text" name="lastname" id="lastname" required>
+                            </label>
+                            <label>Title/Position:<sup class="red">*</sup>
+                                <input type="text" name="title" id="title" required pattern="[A-Za-Z\s-]{7,}">
+                            </label>
+                            <label>Contact Email:<sup class="red">*</sup>
+                                <input type="email" name="email" id="email" required placeholder="example@domain.com">
+                            </label>
+                            <label>Mobile Phone:<sup class="red">*</sup>
+                                <input type="tel" name="phone" id="phone" required>
+                            </label>
+                            <label>Business/Organization Name:<sup class="red">*</sup>
+                                <input type="text" name="organization" id="organization" required>
+                            </label>
+                            <label>Business/Organization Description:<sup class="red">*</sup>
+                                <input type="text" name="description" id="description" required></textarea>
+                            </label>
+                            <label><div id="join-select">Membership Level:</div><sup class="red">*</sup>
+                                <select name="membership" id="membership" required>
+                                    <option value="bronze">Squire Membership</option>
+                                    <option value="silver">Knight Membership</option>
+                                    <option value="grail-knight">Grail Knight Membership</option>
+                                    <option value="paladin">Champion Membership</option>
+                                </select>
+                            </label>
+                            <input type="hidden" name="timestamp" id="timestamp">
+                            <button type="submit">Submit Application</button>
+                        </form>
+                    </div>
+                </div>
+                <div id="join-right">
+                    <div class="card">
+                        <div id="benefits">
+                            <h3>Membership Benefits</h3>
+                            <h4>Squire Membership</h4>
+                            <ul>
+                                <li>Networking Opportunities</li>
+                                <li>Monthly Newsletter</li>
+                                <li>Listing in Online Directory</li>
+                                <li>Access to Member Portal</li>
+                            </ul>
+                            <h4>Knight Membership</h4>
+                            <ul>
+                                <li>All Squire Benefits</li>
+                                <li>Enhanced Directory Listing</li>
+                                <li>Business Workshops</li>
+                                <li>Event Discounts</li>
+                                <li>Social Media Promotion</li>
+                            </ul>
+                            <h4>Grail Knight Membership</h4>
+                            <ul>
+                                <li>All Knight Benefits</li>
+                                <li>Priority Event Access</li>
+                                <li>Exclusive Networking Events</li>
+                                <li>Business Consultation</li>
+                                <li>Advertising Opportunities</li>
+                            </ul>
+                            <h4>Champion of the Round Table Membership</h4>
+                            <ul>
+                                <li>All Grail Knight Benefits</li>
+                                <li>Priority Support</li>
+                                <li>Customized Training Programs</li>
+                                <li>Exclusive Sponsorship Opportunities</li>
+                                <li>Premium Advertising</li>
+                                <li>Annual Gala Invitation</li>
+                            </ul>
+                        </div>
+                </div>
+                    <table>
+                        <caption>Table 1: Account Feature Comparison</caption>
+                        <thead>
+                            <tr>
+                                <th id="table-tiers" colspan="5">Round Table Membership Tiers</th>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <th>Squire</th>
+                                <th>Knight</th>
+                                <th>Grail Knight</th>
+                                <th>Champion of the Round Table</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Special Events</td>
+                                <td>✔️</td>
+                                <td>✔️</td>
+                                <td>✔️</td>
+                                <td>✔️</td>
+                            </tr>
+                            <tr>
+                                <td>Training</td>
+                                <td>❌</td>
+                                <td>✔️</td>
+                                <td>✔️</td>
+                                <td>✔️</td>
+                            </tr>
+                            <tr>
+                                <td>Advertising</td>
+                                <td>❌</td>
+                                <td>❌</td>
+                                <td>✔️</td>
+                                <td>✔️</td>
+                            </tr>
+                            <tr>
+                                <td>Event Discounts</td>
+                                <td>❌</td>
+                                <td>❌</td>
+                                <td>✔️</td>
+                                <td>✔️</td>
+                            </tr>
+                            <tr>
+                                <td>Priority Support</td>
+                                <td>❌</td>
+                                <td>❌</td>
+                                <td>❌</td>
+                                <td>✔️</td>
+                            </tr>
+                        </tbody>
+                    </table>
+               
+            </div>
+        </main>
+        <footer>
+            <p>Chamber site Project</p>
+            <p>&copy;<span id='currentYear'></span> - TJ Strickland - Idaho, USA</p>
+            <p id='lastModified'></p>
+        </footer>
+    </div>
+</body>
+</html>

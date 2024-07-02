@@ -95,7 +95,7 @@ header h1 {
     margin-top: 5px;
 }
 
-/* Image styling */
+/* Image styling
 #Camelotimg {
     width: 400px;
     height: auto;
@@ -106,46 +106,47 @@ header h1 {
 #Camelotimage {
     border: 1px solid var(--header-color);
     border-radius: 10px;
-}
+} */
 
-/* Opening section styling */
-#opening {
-    border: 1px solid var(--header-color);
-    border-radius: 10px;
-    background-color: var(--background-color);
-    padding: 1rem;
-    color: var(--text-color);
-}
-
+/* Opening section styling
 /* Member section styling */
-.member {
+/* .member {
     padding: 1rem;
     margin: 1rem;
     border: 1px solid var(--header-color);
     border-radius: 10px;
     background-color: var(--background-color);
     color: var(--text-color);
-}
+} */ 
+
+/* #opening {
+    border: 1px solid var(--header-color);
+    border-radius: 10px;
+    background-color: var(--background-color);
+    padding: 1rem;
+    color: var(--text-color);
+} */
+
 
 /* Dark mode button styling */
 #dark-mode {
     position: absolute;
     top: 1rem;
     right: 1rem;
-    height: 2rem;
     background-color: white;
     border: 1px solid var(--header-color);
     border-radius: 10px;
     color: var(--text-color);
+
 }
 
-#dark-mode::before {
+/* #dark-mode::before {
     content: "🌙";
 }
 
 #dark-mode::after {
     content: "☀️";
-}
+} */
 
 .hero-image {
     width: 100%;
@@ -172,9 +173,15 @@ header h1 {
 #hero-image {
     position: relative;
     width: 100%;
-    margin: 20px 0;
+    height: 100%;
 }
 
+/* The img element should cover the entire #hero-image container */
+#hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+}
 #hero-label {
     padding: 1rem;
     border-radius: 10px;
@@ -193,14 +200,196 @@ header h1 {
     background-color: var(--background-color);
     color: var(--text-color);
     list-style-type: none;
+    box-shadow: black 5px 5px 5px;
+}
+
+.card ul{
+    margin-right: 40px;
 }
 
 ul{
     list-style-type: none;
 }
 
-figure img {
-    width: 100%; /* Make the image take 100% of the figure's width */
-    max-width: 500px; /* Ensure the image does not exceed the viewport width */
-    height: auto; /* Maintain aspect ratio */
+.discover-img {
+    width: auto;
+    max-width: 500px;
+    height: 500px; 
+    box-shadow: black 5px 5px 5px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+/* Join section styling */
+
+#join-left {
+    border: 1px solid var(--header-color);
+    border-radius: 10px;
+    background-color: var(--background-color);
+    padding: 1rem;
+    justify-content: space-around;
+    color: var(--text-color);
+}
+
+#join-right {
+    border: 1px solid var(--header-color);
+    border-radius: 10px;
+    background-color: var(--background-color);
+    padding: 1rem;
+    justify-content: space-around;
+    color: var(--text-color);
+}
+
+/* Table section styling */
+table{
+    border-collapse: collapse;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+caption{
+    caption-side: bottom;
+    font-size: .5rem;
+}
+
+#table-tiers{
+    font-size: 2rem;
+}
+
+tr{
+    border: 1px solid black;
+}
+
+th{
+    border: 1px solid black;
+}
+
+thead{
+    background-color: var(--header-color);
+    color: white;
+}
+
+#join-content > table > thead > tr:nth-child(1) > th:nth-child(1){
+   padding: 1rem;
+}
+td {
+    padding: 1rem;
+}
+
+thead tr:nth-child(2) td{
+    background-color: var(--card-color);
+
+}
+
+thead tr:nth-child(2) td:nth-child(1){
+    background-color: var(--card-color);
+}
+
+tbody tr:nth-child(even){
+    background-color: rgb(99, 53, 7);
+}
+
+tbody td{
+    border: 1px solid black;
+    padding: 05.rem;
+}
+
+/* Form section styling */
+
+form{
+   text-align: left;
+}
+
+input{
+    width: 100%;
+}
+
+input{
+    display:block;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    padding: .3rem;
+}
+
+button{
+    font-size: 1.5rem;
+    background-color: var(--header-color);
+    color: white;
+    border-radius: 3px;
+    padding: .3rem;
+}
+
+button:hover{
+    background-color: var(--header-color-hover);
+    color: var(--header-color);
+}
+
+main{
+    border: 1px solid var(--header-color);
+    border-radius: 3px;
+    padding: .3rem;
+}
+
+#benefits{
+    text-align: center;
+}
+
+#benefits h4{
+    color: var(--header-color);
+}
+
+#benefits ul{
+    text-align: center;
+    margin-right: 40px;
+}
+
+/* Grid view styles */
+#directory-container.grid-view .card {
+    width: 30%; /* Adjust width as needed */
+    display: inline-block; /* Makes the elements sit side by side */
+}
+
+/* List view styles */
+#directory-container.list-view .card {
+    display: block; /* Stack the elements */
+    border: none;
+    padding: 0;
+    box-shadow: none;
+}
+
+#directory-container.list-view img{
+    display:none;
+}
+
+#directory-container.list-view .card h2{
+    display: inline;
+    padding: 0.3rem;
+}
+
+#directory-container.list-view .card p{
+    display: inline;
+    padding: 0.3rem;
+}
+
+#directory-container.list-view > div:nth-child(odd){
+background-color: brown;
+}
+
+#directory-container.list-view a{
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+#directory-container .member-imgs {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid var(--header-color);
+    box-shadow: black 5px 5px 5px;
 }

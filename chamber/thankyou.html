@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Chamber Site Project - TJ Strickland - Chamber Site">
+    <meta name="author" content="TJ Strickland">
+    <title>Thank You - Round Table Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/header-footer.js" defer></script>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <div id="topheader">
+                <h1>Round Table Chamber</h1>
+                <button id="dark-mode">Dark Mode</button>
+            </div>
+            <button id="menu-button" onclick="toggleMenu()">
+                <span id="menu-icon">&#x2261;</span> 
+            </button>
+            <nav>
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discovery.html">Discovery</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                </ul>
+            </nav>
+        </header>  
+        <main>
+            <div id="thank-you-container">
+                <h1>Thank You!</h1>
+                <p>Your application has been submitted successfully.</p>
+                <p>We appreciate your interest in joining the Round Table Chamber of Commerce.</p>
+                <p><a href="index.html">Return to Home Page</a></p>
+            </div>
+        </main>
+        <footer>
+            <p>Chamber site Project</p>
+            <p>&copy;<span id='currentYear'></span> - TJ Strickland - Idaho, USA</p>
+            <p id='lastModified'></p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Web Frontend Development - TJ Strickland - Form Example">
+    <meta name="author" content="TJ Strickland">
+
+    <meta property="og:title" content="TJ Strickland - WDD 230 - Web Frontend Development Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.visittheusa.com/sites/default/files/styles/hero_l/public/images/hero_media_image/2019-07/84a7bcbb305e1dae853e98b686cc2603.jpeg?h=8d751e12&itok=6lWOOHel">
+    <meta property="og:url" content="https://tjstrickland.com/wdd230/form.html">
+
+
+    <title>TJ Strickland - WDD 230 - Web Frontend Development - Form Example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="favicon.ico">
+
+    
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/visits.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+
+
+</head>
+<body>
+    <div id="content">
+        <header>
+            <div id="'topheader">
+                <img id="header-img" src="images\headshotpng.png" alt="TJ Strickland headshot">
+                <h1>TJ Strickland</h1>
+                <button id="menu-button" onclick="toggleMenu()">
+                    <span id="menu-icon">&#x2261;</span> 
+                </button>
+            </div>
+            <nav>
+                <ul class="nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
+                    <li><a href="chamber/">Chamber</a></li>
+                    <li><a href="https://www.byui.edu">BYU-Idaho</a></li>
+                    <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng&id=p27#p27">Scripture</a></li>
+                </ul>
+            </nav>
+        </header>  
+        <main>
+            <form action="record.html" method="get">
+                <label>Username:<sup class ="red">*</sup> 
+                    <input type="text" name="username" id="username" required>
+                </label>
+                <label>Password:<sup class ="red">*</sup> 
+                    (at least 8 alpha numerical chars)<input type="password" name="password" id="password" required pattern="[A-Za-Z0-9]{8,}">
+                </label>
+                <label>Confirm:<sup class ="red">*</sup> <span id="message"></span>
+                    <input type="password" name="confirm" id="confirm" required>
+                </label>
+                <label>Email:<sup class ="red">*</sup>
+                    <input type="email" name="email" id="email" required pattern="[.+@byui.edu]">
+                </label>
+                <label>Rating:
+                    <input type="range" min="1" max="10" step="1">
+                </label>
+                <button type="submit">Rate My Page!</button>
+            </form>
+        </main>
+
+        <footer>
+            <p>&copy;<span id='currentYear'></span> - TJ Strickland - Idaho, USA</p>
+            <p id='lastModified'></p>
+            <p>Site Visits: <span id='visits'></span></p>
+        </footer>
+    </div>
+</body>
+</html>

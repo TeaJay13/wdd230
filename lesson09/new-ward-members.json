@@ -1,0 +1,37 @@
+{
+    "familyName" : "Strickland",
+    "moveInDate" : "2024-06-01",
+    "numberOfRecords" : 5,
+    "visitedByBishopric" : true,
+    "familyMembers" : [
+        {
+            "name" : "Tommy",
+            "gender" : "Male",
+            "birthdate" : "1974-08-12"
+        },
+
+        {
+            "name" : "Lorraine",
+            "gender" : "Female",
+            "birthdate" : "1975-07-11"
+        },
+
+        {
+            "name" : "TJ",
+            "gender" : "Male",
+            "birthdate" : "1999-12-20"
+        },
+
+        {
+            "name" : "Dylan",
+            "gender" : "Male",
+            "birthdate" : "2011-12-11"
+        },
+
+        {
+            "name" : "Lily",
+            "gender" : "Female",
+            "birthdate" : "2013-10-31"
+        }
+    ]
+}

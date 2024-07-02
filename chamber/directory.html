@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Chamber Site Project - TJ Strickland - Chamber Site">
+    <meta name="author" content="TJ Strickland">
+
+    <meta property="og:title" content="Round Table Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://roundtablechamber.gov">
+    <meta name="contact" content="www.roundtablechamber@gmail.com">
+
+    <title>Round Table Chamber of Commerce - Directory</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+
+    <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/header-footer.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <div id="topheader">
+                <h1>Round Table Chamber</h1>
+                <button id="dark-mode">Dark Mode 🌙</button>
+            </div>
+
+            <picture id="hero-image">
+                <source srcset="images/wdd230Small.webp" media="(max-width: 799px)">
+                <source srcset="images/wdd230Medium.webp" media="(min-width: 800px) and (max-width: 999px)">
+                <source srcset="images/wdd230Large.webp" media="(min-width: 1000px)">
+                <img src="chamber/images/wdd230Large.webp" alt="Responsive Hero Image">
+            </picture>
+
+            <button id="menu-button" onclick="toggleMenu()">
+                <span id="menu-icon">&#x2261;</span> 
+            </button>
+            <nav>
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discovery</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                </ul>
+            </nav>
+        </header>  
+
+        <main>
+            <button onclick="toggleView('grid')">Grid View</button>
+            <button onclick="toggleView('list')">List View</button>
+            <div id="directory-container" class="list-view">
+                <!-- Member entries will be inserted here -->
+            </div>
+        </main>
+        <footer>
+            <p>Chamber Site Project</p>
+            <p>&copy;<span id='currentYear'></span> TJ Strickland - Idaho, USA</p>
+            <p id='lastModified'></p>
+            <!-- Picture Credits: -->
+            <!-- Photo by Susanne Jutzeler, suju-foto : https://www.pexels.com/photo/closeup-photo-of-black-hilt-and-brown-sword-1383766/ -->
+            <!-- Photo by RDNE Stock project: https://www.pexels.com/photo/an-old-book-and-candles-on-wooden-table-with-glass-bottles-7978061/ -->
+            <!-- Photo by Kyle Roxas: https://www.pexels.com/photo/black-withered-tree-surounded-by-body-of-water-2138922/ -->
+            <!-- Photo by Matt Hardy: https://www.pexels.com/photo/low-angle-photography-of-gray-castle-2309272/ -->
+            <!-- Photo by Pixabay: https://www.pexels.com/photo/stainless-steel-armor-63852/ -->
+            <!-- Photo by cottonbro studio: https://www.pexels.com/photo/tarot-cards-and-a-crystal-ball-on-the-table-7179792/ -->
+            <!-- Photo by Lisa Fotios: https://www.pexels.com/photo/red-and-black-dragon-logo-11275192/ -->
+
+        </footer>
+    </div>
+</body>
+</html>
