@@ -1,7 +1,31 @@
-const WEATHER_URL = "api.openweathermap.org/data/2.5/forecast?lat=51.0764577&lon=-3.3717405&appid=8cbe323e6af26690e188cd2bf751f57c&units=imperial"
+const WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather?lat=51.18464634349141&lon=-2.967960839573753&appid=8cbe323e6af26690e188cd2bf751f57c&units=imperial"
 
 // select HTML elements in the document
-const date1 = document.querySelector('#date')
-const temp1 = document.querySelector('#temp')
-const weatherIcon1 = document.querySelector('#weather-icon')
-const captionDesc1 = document.querySelector('figcaption')
+const currentTemp = document.querySelector('#current-temp')
+const weatherIcon = document.querySelector('#weather-icon')
+const captionDesc = document.querySelector('#weather-figcaption')
+
+// display the weather data
+
+function displayResults(data) {
+    currentTemp.innerHTML = `${data.main.temp}&deg;F`
+    captionDesc.innerHTML = data.weather[0].main
+    weatherIcon.setAttribute('src', "https://openweathermap.org/img/wn/"+data.weather[0].icon+"@2x.png")
+}
+
+async function apiFetch() {
+    try {
+      const response = await fetch(WEATHER_URL);
+      if (response.ok) {
+        const data = await response.json()
+        console.log(data); // testing only
+        displayResults(data); // uncomment when ready
+      } else {
+          throw Error(await response.text())
+      }
+    } catch (error) {
+        console.log(error);
+    }
+  }
+  
+  apiFetch()

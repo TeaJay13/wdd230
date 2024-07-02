@@ -354,7 +354,12 @@ main{
 }
 
 #directory-container.list-view > div:nth-child(odd){
-background-color: brown;
+    background-color: brown;
+    border: 1px solid var(--header-color);
+    color: white;
+}
+#directory-container.list-view > div:nth-child(even){
+    border: 1px solid var(--header-color);
 }
 
 #directory-container.list-view a{

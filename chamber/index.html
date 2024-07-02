@@ -20,21 +20,22 @@
     <script src="scripts/header-footer.js" defer></script>
     <script src="scripts/windchill.js" defer></script>
     <script src="scripts/banner.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 </head>
 
 
 
 <body>
-    <div id="meet-greet-banner" class="banner">
-        <p>Join us for a Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.</p>
-        <button id="close-banner">Close</button>
-    </div>
     <div id="content">
         <header>
             <div id="topheader">
                 <img id="header-img" src="images/Roundtable-Icon.webp" alt="RoundTableLogo">
                 <h1>Round Table Chamber</h1>
                 <button id="dark-mode">Dark Mode 🌙</button>
+            </div>
+            <div id="meet-greet-banner" class="banner">
+                <p>Join us for a Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.</p>
+                <button id="close-banner">Close</button>
             </div>
 
             <picture id="hero-image">
@@ -65,11 +66,14 @@
                     <h2>Current Weather</h2>
                     <div class="weather-card">
                         <p>Current Conditions: <span id="current-conditions"></span></p>
+                        <figure>
+                            <img id="weather-icon" src="placeholder" alt="weather-icon">
+                            <figcaption id="weather-figcaption"></figcaption>
+                          </figure>
                         <p>Current Temperature: <span id="current-temp"></span>°F</p>
                         <p>Current Wind Speed: <span id="windspeed"></span> mph</p>
                         <p>Current Windchill: <span id="windchill"></span></p>
                     </div>
-                    <p>Check back soon for local weather updates.</p>
                 </section>
                 
                 <section id="opening-card" class="card">
@@ -110,7 +114,9 @@
                     <p>Check back soon for upcoming events.</p>
                 </section>
             </div>
-            <button>Call to Action</button>
+            <a href="join.html">
+                <button>Join the Chamber</button>
+            </a>
         
             <h2>Member Spotlight</h2>
             <div id="members">
