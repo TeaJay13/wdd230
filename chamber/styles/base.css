@@ -219,6 +219,14 @@ img{
     color: var(--text-color);
 }
 
+input:required:hover{
+    background-color: lightcoral;
+}
+
+input:valid:hover{
+    background-color: lightgreen;
+}
+
 /* Table section styling */
 table{
     border-collapse: collapse;
