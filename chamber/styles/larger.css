@@ -30,7 +30,6 @@
         grid-template-columns: 1fr 2fr 1fr;
         justify-content: space-around;
         padding: 1rem;
-        margin-right: 2.5rem;
     }
 
     #weather-forecast{
