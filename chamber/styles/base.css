@@ -11,11 +11,18 @@
 
 /* Top header styling */
 #topheader {
-    display: grid;
-    text-align: center;    
+    display: flex;
+    text-align: center;
+    align-items: center;    
     background-color: var(--header-color);
     border-radius: 10px;
     color: var(--background-color);
+}
+
+header img{
+    height: 100px;
+    width: auto;
+    padding: 10px;
 }
 
 /* Menu button styling */
@@ -95,38 +102,6 @@ header h1 {
     margin-top: 5px;
 }
 
-/* Image styling
-#Camelotimg {
-    width: 400px;
-    height: auto;
-    border-radius: 10%;
-    border: 1px solid var(--header-color);
-}
-
-#Camelotimage {
-    border: 1px solid var(--header-color);
-    border-radius: 10px;
-} */
-
-/* Opening section styling
-/* Member section styling */
-/* .member {
-    padding: 1rem;
-    margin: 1rem;
-    border: 1px solid var(--header-color);
-    border-radius: 10px;
-    background-color: var(--background-color);
-    color: var(--text-color);
-} */ 
-
-/* #opening {
-    border: 1px solid var(--header-color);
-    border-radius: 10px;
-    background-color: var(--background-color);
-    padding: 1rem;
-    color: var(--text-color);
-} */
-
 
 /* Dark mode button styling */
 #dark-mode {
@@ -178,6 +153,7 @@ header h1 {
 
 /* The img element should cover the entire #hero-image container */
 #hero-image img {
+    margin-left: -10px;
     width: 100%;
     height: 100%;
     object-fit: cover; /* Ensures the image covers the container without distortion */
