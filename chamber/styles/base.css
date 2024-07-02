@@ -15,15 +15,16 @@
     text-align: center;
     align-items: center;    
     background-color: var(--header-color);
-    border-radius: 10px;
     color: var(--background-color);
 }
 
 header img{
     height: 100px;
     width: auto;
-    padding: 10px;
+    padding: 10px; 
 }
+
+
 
 /* Menu button styling */
 #menu-button {    
