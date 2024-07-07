@@ -174,10 +174,12 @@ picture {
     position: relative;
 }
 
-#temple-banner {
+#temple-figure {
+    position: relative;
     width: 100%;
     margin: 20px 0;
 }
+
 
 #temple-banner > img {
     width: 100%;
