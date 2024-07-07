@@ -1,4 +1,4 @@
-const FORECAST_URL = "https://api.openweathermap.org/data/2.5/forecast?lat=43.49611413458519&lon=-112.04439467285071&appid=8cbe323e6af26690e188cd2bf751f57c&units=imperial";
+const FORECAST_URL = "https://api.openweathermap.org/data/2.5/forecast?lat=51.18464634349141&lon=-2.967960839573753&appid=8cbe323e6af26690e188cd2bf751f57c&units=imperial";
 
 // Select HTML elements where data will be displayed
 const tempSpan = document.querySelector('#current-temp');
@@ -98,7 +98,7 @@ function displayForecast(data) {
         // Update the HTML with forecast data
         document.querySelector(`#day${i + 1} .date`).textContent = date;
         document.querySelector(`#day${i + 1} .time`).textContent = time;
-        document.querySelector(`#day${i + 1} .temp`).textContent = `${temp}`;
+        document.querySelector(`#day${i + 1} .temp`).textContent = `${temp.toFixed(0)}`;
         document.querySelector(`#day${i + 1} .icon`).setAttribute('src', icon);
         document.querySelector(`#day${i + 1} .icon`).setAttribute('alt', desc);
         document.querySelector(`#day${i + 1} .desc`).textContent = desc;

@@ -46,11 +46,11 @@
                 </ul>
             </nav>
         </header>  
-        <picture id="temple-banner">
-            <source srcset="images/Idaho-Falls-Temple-Picture-Scaled-Small.webp" media="max-width: 960px" type="image/webp">
-            <source srcset="images/Idaho-Falls-Temple-Picture-Scaled-Large.jpg" media="max-width: 400px" type="image/jpeg">
-            <img src="images/Idaho-Falls-Temple-Picture-Scaled.webp" alt="Idaho Falls Temple" class="banner"> 
-            <figcaption id="temple-label">Idaho Falls Temple</figcaption>    
+        <picture id="temple-banner">   
+            <source media="(min-width 960px)" srcset="images/Idaho-Falls-Temple-Picture-Scaled-Small.webp" type="image/webp">
+            <source media="(max-width 400px)" srcset="images/Idaho-Falls-Temple-Picture-Scaled-Large.jpg" type="image/jpeg">
+            <img src="images/Idaho-Falls-Temple-Picture-Scaled.webp" alt="Idaho Falls Temple" class="banner">
+            <figcaption id="temple-label">Idaho Falls Temple</figcaption>
         </picture>
         
        
@@ -85,6 +85,8 @@
                         <figure>
                           <img id="weather-icon" src="" alt="">
                           <figcaption id="current-weather"></figcaption>
+                          <img id="weather-icon" src="placeholder" alt="weather-icon">
+                          <figcaption id="weather-figcaption"></figcaption>
                         </figure>
 
                         <p>Times Visited: Placeholder</p>

@@ -15,15 +15,16 @@
     text-align: center;
     align-items: center;    
     background-color: var(--header-color);
-    border-radius: 10px;
     color: var(--background-color);
 }
 
 header img{
     height: 100px;
     width: auto;
-    padding: 10px;
+    padding: 10px; 
 }
+
+
 
 /* Menu button styling */
 #menu-button {    
@@ -218,6 +219,14 @@ img{
     color: var(--text-color);
 }
 
+input:required:hover{
+    background-color: lightcoral;
+}
+
+input:valid:hover{
+    background-color: lightgreen;
+}
+
 /* Table section styling */
 table{
     border-collapse: collapse;
@@ -353,7 +362,12 @@ main{
 }
 
 #directory-container.list-view > div:nth-child(odd){
-background-color: brown;
+    background-color: brown;
+    border: 1px solid var(--header-color);
+    color: white;
+}
+#directory-container.list-view > div:nth-child(even){
+    border: 1px solid var(--header-color);
 }
 
 #directory-container.list-view a{
