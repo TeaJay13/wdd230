@@ -170,8 +170,11 @@ footer p{
     text-align: center;
 }
 
-#temple-banner {
+picture {
     position: relative;
+}
+
+#temple-banner {
     width: 100%;
     margin: 20px 0;
 }

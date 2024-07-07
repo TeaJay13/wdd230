@@ -30,7 +30,7 @@
     <div id="content">
         <header>
             <div id="topheader">
-                <img id="header-img" src="images\headshotpng.png" alt="TJ Strickland headshot">
+                <img id="header-img" src="images/headshotpng.png" alt="TJ Strickland headshot">
                 <h1>TJ Strickland</h1>
                 <button id="menu-button" onclick="toggleMenu()">
                     <span id="menu-icon">&#x2261;</span> 
@@ -47,11 +47,12 @@
             </nav>
         </header>  
         <picture id="temple-banner">
-            <source media="(min-width 960px)" srcset="images/Idaho-Falls-Temple-Picture-Scaled-Small.webp" type="image/webp">
-            <source media="(max-width 400px)" srcset="images/Idaho-Falls-Temple-Picture-Scaled-Large.jpg" type="image/jpeg">
-            <img src="images/Idaho-Falls-Temple-Picture-Scaled.webp" alt="Idaho Falls Temple" class="banner">
-            <p id="temple-label">Idaho Falls Temple</p>
+            <source srcset="images/Idaho-Falls-Temple-Picture-Scaled-Small.webp" media="max-width: 960px" type="image/webp">
+            <source srcset="images/Idaho-Falls-Temple-Picture-Scaled-Large.jpg" media="max-width: 400px" type="image/jpeg">
+            <img src="images/Idaho-Falls-Temple-Picture-Scaled.webp" alt="Idaho Falls Temple" class="banner"> 
+            <figcaption id="temple-label">Idaho Falls Temple</figcaption>    
         </picture>
+        
        
 
         <main>
@@ -64,14 +65,14 @@
                         <ul>
                             <li>Week 1: <a href='#'> Lesson 1</a></li>
                             <li>Week 2: <a href='lesson02/lesson2.html'> Lesson 2</a></li>
-                            <li>Week 3: <a href='lesson03/chamber-site-plan.html'> Lesson 3</a></li>
+                            <li>Week 3: <a href='lesson03/chamber-site-plan.html'> Chamber Site Plane</a></li>
                             <li>Week 4: <a href='#'> Lesson 4</a></li>
                             <li>Week 5: <a href='lesson05/bom.html'> Lesson 5</a></li>
                             <li>Week 6: <a href='#'> Lesson 6</a></li>
-                            <li>Week 7: <a href='#'> Lesson 7</a></li>
-                            <li>Week 8: <a href='#'> Lesson 8</a></li>
-                            <li>Week 9: <a href='lesson09/prophets.html'> Lesson 9</a></li>
-                            <li>Week 10: <a href='#'> Lesson 10</a></li>
+                            <li>Week 7: <a href='lesson07/lazyload.html'> Lazy Load</a></li>
+                            <li>Week 8: <a href='lesson08/tablebuild.html'> Tables</a></li>
+                            <li>Week 9: <a href='lesson09/prophets.html'> Prophet Json</a></li>
+                            <li>Week 10: <a href='lesson10/weather.html'> Weather APIs</a></li>
                         </ul>
                     </div>
                 </section>
@@ -83,7 +84,7 @@
                         <p>The current temperature in Idaho Falls, USA is <span id="current-temp"></span></p>
                         <figure>
                           <img id="weather-icon" src="" alt="">
-                          <figcaption></figcaption>
+                          <figcaption id="current-weather"></figcaption>
                         </figure>
 
                         <p>Times Visited: Placeholder</p>
