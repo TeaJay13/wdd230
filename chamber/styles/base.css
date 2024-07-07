@@ -146,8 +146,14 @@ header h1 {
     }
 }
 
-#hero-image {
+#hero-figure {
     position: relative;
+    width: 100%;
+    margin: 20px 0;
+}
+
+#hero-image {
+
     width: 100%;
     height: 100%;
 }
