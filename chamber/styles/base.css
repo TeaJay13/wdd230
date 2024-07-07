@@ -307,6 +307,7 @@ input{
     color: white;
     border-radius: 3px;
     padding: .3rem;
+    text-decoration: none;
 }
 
 button:hover{
