@@ -281,7 +281,7 @@ tbody tr:nth-child(even){
 
 tbody td{
     border: 1px solid black;
-    padding: 05.rem;
+    padding: 0.5rem;
 }
 
 /* Form section styling */
@@ -301,7 +301,7 @@ input{
     padding: .3rem;
 }
 
-button{
+.button-link{
     font-size: 1.5rem;
     background-color: var(--header-color);
     color: white;

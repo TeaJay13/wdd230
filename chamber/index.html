@@ -41,7 +41,7 @@
             <picture id="hero-image">
                 <source srcset="images/SomersetSmall.webp" media="(max-width: 600px)">
                 <source srcset="images/SomersetMed.webp" media="(min-width: 800px) and (max-width: 999px)">
-                <source srcset="images/SomersetLarge.webp" media="min-width: 1000px">
+                <source srcset="images/SomersetLarge.webp" media="(min-width: 1000px)">
                 <img src="images/SomersetLarge.webp" alt="Responsive Hero Image">
                 <p id="hero-label"></p>
             </picture>
@@ -62,7 +62,7 @@
 
         <main>
             <div id="Openings">
-                <section id="opening-card" class="card">
+                <section class="card">
                     <h2>Current Weather</h2>
                     <div class="weather-card">
                         <p>Current Conditions: <span id="current-conditions"></span></p>
@@ -76,7 +76,7 @@
                     </div>
                 </section>
                 
-                <section id="opening-card" class="card">
+                <section class="card">
                     <h2>3-Day Weather Forecast</h2>
                     <div id="weather-forecast">
                         <div class="day-forecast" id="day1">
@@ -84,7 +84,7 @@
                             <p>Time: <span class="time"></span></p>
                             <p>Temperature: <span class="temp"></span>°F</p>
                             <figure>
-                                <img class="icon" src="" alt="">
+                                <img class="icon" src="placeholder.jpg" alt="icon">
                                 <figcaption class="desc"></figcaption>
                             </figure>
                         </div>
@@ -93,7 +93,7 @@
                             <p>Time: <span class="time"></span></p>
                             <p>Temperature: <span class="temp"></span>°F</p>
                             <figure>
-                                <img class="icon" src="" alt="">
+                                <img class="icon" src="placeholder.jpg" alt="icon">
                                 <figcaption class="desc"></figcaption>
                             </figure>
                         </div>
@@ -102,7 +102,7 @@
                             <p>Time: <span class="time"></span></p>
                             <p>Temperature: <span class="temp"></span>°F</p>
                             <figure>
-                                <img class="icon" src="" alt="">
+                                <img class="icon" src="placeholder.jpg" alt="icon">
                                 <figcaption class="desc"></figcaption>
                             </figure>
                         </div>
@@ -114,9 +114,8 @@
                     <p>Check back soon for upcoming events.</p>
                 </section>
             </div>
-            <a href="join.html">
-                <button>Join the Chamber</button>
-            </a>
+            
+            <a href="join.html" class="button-link">Join the Chamber</a>
         
             <h2>Member Spotlight</h2>
             <div id="members">
