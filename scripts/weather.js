@@ -3,7 +3,6 @@ const WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather?lat=43.4961
 // select HTML elements in the document
 const currentTemp = document.querySelector('#current-temp')
 const weatherIcon = document.querySelector('#weather-icon')
-const captionDesc = document.querySelector('#current-weather')
 const captionDesc = document.querySelector('#weather-figcaption')
 
 // display the weather data
