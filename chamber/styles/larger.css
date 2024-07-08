@@ -39,12 +39,6 @@
     
     }
 
-    .day-forecast{
-       padding: 1rem;
-       border : 1px solid var(--header-color);
-       border-radius: 5px;
-    }
-
     /* Dicover section styling */
     #discover-content {
         display: grid;
