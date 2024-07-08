@@ -13,7 +13,8 @@ document.addEventListener("DOMContentLoaded", async function() {
         const randomMembers = [];
         const selectedIndex = new Set();
         
-        while (randomMembers.length < num && randomMembers.length < array.length) {
+        // Get random members until the specified number is reached or all members are selected
+        while (randomMembers.length < num) {
             const randomIndex = Math.floor(Math.random() * array.length);
             if (!selectedIndex.has(randomIndex)) {
                 randomMembers.push(array[randomIndex]);
