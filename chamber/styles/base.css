@@ -341,9 +341,11 @@ main{
 }
 
 /* Grid view styles */
-#directory-container.grid-view .card {
-    width: 30%; /* Adjust width as needed */
-    display:block; /* Makes the elements sit side by side */
+@media screen and (min-width: 700px){
+    #directory-container.grid-view{
+        display: inline-block;
+
+    }
 }
 
 
