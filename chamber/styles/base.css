@@ -24,6 +24,11 @@ header img{
     padding: 10px; 
 }
 
+#footer-img{
+    height: 65px;
+    width: auto;
+    padding: 10px; 
+}
 
 
 /* Menu button styling */
