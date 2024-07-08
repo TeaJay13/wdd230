@@ -175,6 +175,11 @@ header h1 {
     left: 10px;
 }
 
+.events{
+    height: 100px;
+    width: 100px;
+}
+
 /* Dicover section styling */
 .card { padding: 1rem;
     margin: 1rem;
