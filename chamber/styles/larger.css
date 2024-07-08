@@ -65,4 +65,10 @@
         width: 30%; /* Adjust width as needed */
         display: inline-block; /* Makes the elements sit side by side */
     }
+
+    #dynamic-members {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
