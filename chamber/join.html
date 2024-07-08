@@ -5,25 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="WDD 230 - Chamber Site Project - TJ Strickland - Chamber Site">
     <meta name="author" content="TJ Strickland">
-
     <meta property="og:title" content="Round Table Chamber of Commerce Join">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://roundtablechamber.gov">
-    <meta name="contact" content="www.roundtablechamber@gmail.com">
-
+    <meta name="contact" content="mailto:roundtablechamber@gmail.com">
     <title>Round Table Chamber of Commerce</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
-
     <script src="scripts/hamburger.js" defer></script>
     <script src="scripts/header-footer.js" defer></script>
     <script src="scripts/datemath.js" defer></script>
     <script src="scripts/join.js" defer></script>
 </head>
-
-
-
 <body>
     <div id="content">
         <header>
@@ -32,7 +26,6 @@
                 <h1>Round Table Chamber</h1>
                 <button id="dark-mode">Dark Mode 🌙</button>
             </div>
-            
             <button id="menu-button" onclick="toggleMenu()">
                 <span id="menu-icon">&#x2261;</span> 
             </button>
@@ -45,13 +38,11 @@
                 </ul>
             </nav>
         </header>  
-
         <main>
             <div id="join-content">
                 <div id="join-left">
                     <h2>Join the Round Table Chamber of Commerce</h2>
-                    <p>Join the Round Table Chamber of Commerce and become a part of the most prestigious business organization in the world. Our members are the best of the best and we are looking for you to join us. We have three levels of membership to choose from. Squire, Knight, and Grail Knight. Each level has its own unique benefits and features. Choose the level that best fits your needs and join us today!</p>
-
+                    <p>Join the Round Table Chamber of Commerce and become a part of the most prestigious business organization in the world. Our members are the best of the best and we are looking for you to join us. We have three levels of membership to choose from: Squire, Knight, and Grail Knight. Each level has its own unique benefits and features. Choose the level that best fits your needs and join us today!</p>
                     <div class="form">
                         <form action="thankyou.html" method="get">
                             <label>First Name:<sup class="red">*</sup>
@@ -73,14 +64,15 @@
                                 <input type="text" name="organization" id="organization" required>
                             </label>
                             <label>Business/Organization Description:<sup class="red">*</sup>
-                                <input type="text" name="description" id="description" required></textarea>
+                                <textarea name="description" id="description" required></textarea>
                             </label>
-                            <label><div id="join-select">Membership Level:</div><sup class="red">*</sup>
+                            <label>Membership Level:<sup class="red">*</sup>
                                 <select name="membership" id="membership" required>
+                                    <option value="" disabled selected>Select Membership Level</option>
                                     <option value="bronze">Squire Membership</option>
                                     <option value="silver">Knight Membership</option>
                                     <option value="grail-knight">Grail Knight Membership</option>
-                                    <option value="paladin">Champion Membership</option>
+                                    <option value="champion">Champion Membership</option>
                                 </select>
                             </label>
                             <input type="hidden" name="timestamp" id="timestamp">
@@ -125,7 +117,7 @@
                                 <li>Annual Gala Invitation</li>
                             </ul>
                         </div>
-                </div>
+                    </div>
                     <table>
                         <caption>Table 1: Account Feature Comparison</caption>
                         <thead>
@@ -178,7 +170,7 @@
                             </tr>
                         </tbody>
                     </table>
-               
+                </div>
             </div>
         </main>
         <footer>
