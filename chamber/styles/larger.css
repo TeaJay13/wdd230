@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1250px) {
 
     .nav {
         display: flex;
@@ -39,12 +39,6 @@
     
     }
 
-    .day-forecast{
-       padding: 1rem;
-       border : 1px solid var(--header-color);
-       border-radius: 5px;
-    }
-
     /* Dicover section styling */
     #discover-content {
         display: grid;
@@ -59,5 +53,16 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
+    }
+
+    #directory-container.grid-view .card {
+        width: 30%; /* Adjust width as needed */
+        display: inline-block; /* Makes the elements sit side by side */
+    }
+
+    #dynamic-members {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
 }

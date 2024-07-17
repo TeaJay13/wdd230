@@ -5,12 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="WDD 230 - Chamber Site Project - TJ Strickland - Chamber Site">
     <meta name="author" content="TJ Strickland">
-
     <meta property="og:title" content="Round Table Chamber of Commerce">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://roundtablechamber.gov">
     <meta name="contact" content="www.roundtablechamber@gmail.com">
-
     <title>Round Table Chamber of Commerce - Directory</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -30,13 +28,15 @@
                 <button id="dark-mode">Dark Mode 🌙</button>
             </div>
 
-            <picture id="hero-image">
-                <source srcset="images/SomersetSmall.webp" media="(max-width: 600px)">
-                <source srcset="images/SomersetMed.webp" media="(min-width: 800px) and (max-width: 999px)">
-                <source srcset="images/SomersetLarge.webp" media="min-width: 1000px">
-                <img src="images/SomersetLarge.webp" alt="Responsive Hero Image">
-                <p id="hero-label"></p>
-            </picture>
+            <figure id ="hero-figure">
+                <picture id="hero-image">
+                    <source srcset="images/SomersetSmallv3.webp" media="(max-width: 600px)">
+                    <source srcset="images/SomersetMedv3.webp" media="(min-width: 800px) and (max-width: 999px)">
+                    <source srcset="images/SomersetLargev3.webp"  media="(min-width: 1000px)">
+                    <img src="images/somersetlargev3.webp" alt="Responsive Hero Image">
+                </picture>
+                <figcaption id="hero-label"></figcaption>
+            </figure>
 
             <button id="menu-button" onclick="toggleMenu()">
                 <span id="menu-icon">&#x2261;</span> 
