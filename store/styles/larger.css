@@ -1,4 +1,9 @@
 @media screen and (min-width: 1200px) {
+    #topheader{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
     .nav {
         display: flex;
         flex-direction: row;
@@ -50,5 +55,19 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+    }
+
+
+    /* About Us Styling */
+    #top-content-au{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        gap: 20px;
+    }
+
+    #bottom-content-au{
+        display: block;
+        text-align: center;
     }
 }

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MountainQuest Gear - About us page.">
+    <meta name="author" content="TJ Strickland">
+
+    <meta property="og:title" content="MountainQuest Gear">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mountainquestgear.com/about-us">
+    <meta name="contact" content="contact@mountainquestgear.com">
+
+    <title>About Us | MountainQuest Gear</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="favicon.ico">
+
+    <script src="scripts/hamburger-menu.js" defer></script>
+    <script src="scripts/footer-dates.js" defer></script>
+</head>
+<body>
+    <div id="content-au">
+        <header>
+            <div id="topheader">
+                <img id="header-img" src="images/logo.png" alt="MountainQuest Gear Logo">
+                <h1>MountainQuest Gear</h1>
+                <button id="menu-button" onclick="toggleMenu()">
+                    <span id="menu-icon">&#x2261;</span> 
+                </button>
+            </div>
+
+            <nav>
+                <ul class="nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </nav>
+
+            <picture id="hero-image">
+                <source srcset="images/SomersetSmall.webp" media="(max-width: 600px)">
+                <source srcset="images/SomersetMed.webp" media="(min-width: 800px) and (max-width: 999px)">
+                <source srcset="images/SomersetLarge.webp" media="min-width: 1000px">
+                <img src="images/SomersetLarge.webp" alt="Responsive Hero Image">
+                <p id="hero-label">Equip Your Adventure</p>
+            </picture>
+        </header> 
+        <main>
+            <div id="top-content-au">
+                <section class="card">
+                    <h2>About Us</h2>
+                    <figure>
+                        <img src="images/placeholder.jpg" alt="About Us Image">
+                        <figcaption>Our Team at MountainQuest Gear</figcaption>
+                    </figure>
+                    <p>Welcome to MountainQuest Gear, your number one source for all things outdoor. We're dedicated to giving you the very best of outdoor gear, with a focus on quality, customer service, and uniqueness.</p>
+                    <p>Founded in 2024 by TJ Strickland, MountainQuest Gear has come a long way from its beginnings in Salt Lake City, UT. When TJ first started out, his passion for eco-friendly outdoor products drove him to do tons of research, so that MountainQuest Gear can offer you the world's most advanced outdoor gear. We now serve customers all over the world, and are thrilled that we're able to turn our passion into our own website.</p>
+                    <p>We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.</p>
+                </section>
+                <section class="card">
+                    <h2>Our Mission</h2>
+                    <figure>
+                        <img src="images/placeholder.jpg" alt="Our Mission Image">
+                        <figcaption>Exploring the Outdoors with MountainQuest Gear</figcaption>
+                    </figure>
+                    <p>Our mission is to provide high-quality, sustainable, and reliable outdoor gear to adventurers worldwide. We strive to inspire a love for the outdoors and a commitment to preserving our natural environment.</p>
+                    <p>At MountainQuest Gear, we believe in the power of nature to restore and rejuvenate the human spirit. Our products are designed to help you explore the great outdoors with confidence and respect for the environment.</p>
+                </section>
+            </div>
+            <div id="bottom-content-au">
+                <section class="card">
+                    <h2>Store Location</h2>
+                    <div class="google-map-au">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d386733.8479408653!2d-112.25012874931295!3d40.77613895074511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87523d9488d131ed%3A0x5b53b7a0484d31ca!2sSalt%20Lake%20City%2C%20UT!5e0!3m2!1sen!2sus!4v1721276644343!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </section>
+            </div>
+        </main>    
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section-links">
+                    <h3>Resources & Attribution</h3>
+                    <ul>
+                        <li><a href="https://openweathermap.org" target="_blank">OpenWeatherMap</a></li>
+                        <li><a href="https://www.google.com/maps" target="_blank">Google Maps</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section-social">
+                    <h3>Follow Us</h3>
+                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="footer-section-contact">
+                    <h3>Contact Us</h3>
+                    <p>Email: <a href="mailto:contact@mountainquestgear.com">contact@mountainquestgear.com</a></p>
+                    <p>Phone: (123) 456-7890</p>
+                    <p>Address: 123 Outdoor Ave, Salt Lake City, UT 84101</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy;<span id='current-year'></span> - MountainQuest Gear. All Rights Reserved.</p>
+                <p>Last Modified: <span id="last-modified"></span></p>
+                <p>Site Visits: <span id='visits'></span></p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
