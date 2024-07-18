@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --background-color: #e7ecef;
-    --header-color: #274c77;
-    --accent-color: #a3cef1;
-    --accent2-color: #8b8c89;
+    --background-color: #EFF1ED;
+    --header-color: #373D20;
+    --accent-color: #717744;
+    --accent2-color: #BCBD8B;
+    --accent3-color: #766153;
 }
 
 body{
@@ -18,27 +19,22 @@ body{
 }
 
 #topheader{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: var(--header-color);
     color: var(--background-color);
     padding: 10px;
 }
 
-#topheader img{
-    height: 100px;
-    width: auto;
-    padding: 10px;
-    justify-self: start; 
+#topheader h1{
+    margin: 0 auto;
 }
 
-
 #menu-button{    
-    background-color: inherit;
+    background-color: var(--accent-color);
     font-size: 2rem;
     padding: .5rem;
     border: none;
-    cursor: pointer;
 }
 
 #menu-icon{
@@ -64,14 +60,36 @@ nav ul li{
 
 nav ul li a{
     display: block;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 nav ul li:hover{
-    background-color: var(--accent2-color);
+    background-color:var(--accent3-color);
 }
 
 nav ul li a:hover{
-    color: var(--background-color);
+    color: var(--accent2-color);
+}
+
+#top-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#middle-content{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#middle-content h2{
+   align-items: center;
+}
+
+#bottom-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

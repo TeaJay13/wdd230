@@ -1,0 +1,54 @@
+@media screen and (min-width: 1200px) {
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav ul.open{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #menu-button{
+        display: none;
+    }
+
+    #top-content{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        text-align: center;
+        gap: 10px;
+    }
+
+    #top-content h2{
+        padding: 20px;
+    }
+
+    .products{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #bottom-content{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    #bottom-content h2{
+       padding: 20px;
+    }
+
+    .weather-forecast{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
