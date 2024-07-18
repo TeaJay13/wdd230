@@ -70,4 +70,26 @@
         display: block;
         text-align: center;
     }
+
+    /* Products Styling */
+
+    #products-container.grid-view .card {
+        width: 30%; /* Adjust width as needed */
+        display: inline-block; /* Makes the elements sit side by side */
+    }
+/* Grid view styles for medium screens (2x6) */
+@media screen and (min-width: 1200px) {
+    #product-list.grid-view {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Grid view styles for large screens (4x3) */
+@media screen and (min-width: 1500px) {
+    #product-list.grid-view {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+        
 }

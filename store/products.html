@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MountainQuest Gear - Product Listing Page.">
+    <meta name="author" content="TJ Strickland">
+
+    <meta property="og:title" content="MountainQuest Gear">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mountainquestgear.com/products">
+    <meta name="contact" content="contact@mountainquestgear.com">
+
+    <title>Products | MountainQuest Gear</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="favicon.ico">
+
+    <script src="scripts/hamburger-menu.js" defer></script>
+    <script src="scripts/footer-dates.js" defer></script>
+    <script src="scripts/products.js" defer></script>
+</head>
+<body>
+    <div id="content-pd">
+        <header>
+            <div id="topheader">
+                <img id="header-img" src="images/logo.png" alt="MountainQuest Gear Logo">
+                <h1>MountainQuest Gear</h1>
+                <button id="menu-button" onclick="toggleMenu()">
+                    <span id="menu-icon">&#x2261;</span> 
+                </button>
+            </div>
+
+            <nav>
+                <ul class="nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </nav>
+
+            <picture id="hero-image">
+                <source srcset="images/SomersetSmall.webp" media="(max-width: 600px)">
+                <source srcset="images/SomersetMed.webp" media="(min-width: 800px) and (max-width: 999px)">
+                <source srcset="images/SomersetLarge.webp" media="min-width: 1000px">
+                <img src="images/SomersetLarge.webp" alt="Responsive Hero Image">
+                <p id="hero-label">Equip Your Adventure</p>
+            </picture>
+        </header> 
+        <main>
+            <button onclick="toggleView('grid')">Grid View</button>
+            <button onclick="toggleView('list')">List View</button>
+            <div id="product-list" class="list-view">
+                <!-- Product items will be injected here by JavaScript -->
+            </div>
+        </main>    
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section-links">
+                    <h3>Resources & Attribution</h3>
+                    <ul>
+                        <li><a href="https://openweathermap.org" target="_blank">OpenWeatherMap</a></li>
+                        <li><a href="https://www.google.com/maps" target="_blank">Google Maps</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section-social">
+                    <h3>Follow Us</h3>
+                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="footer-section-contact">
+                    <h3>Contact Us</h3>
+                    <p>Email: <a href="mailto:contact@mountainquestgear.com">contact@mountainquestgear.com</a></p>
+                    <p>Phone: (123) 456-7890</p>
+                    <p>Address: 123 Outdoor Ave, Salt Lake City, UT 84101</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy;<span id='current-year'></span> - MountainQuest Gear. All Rights Reserved.</p>
+                <p>Last Modified: <span id="last-modified"></span></p>
+                <p>Site Visits: <span id='visits'></span></p>
+            </div>
+        </footer>
+    </div>
+    <script>
+        // Update footer dates
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+        document.getElementById('last-modified').textContent = document.lastModified;
+
+        // Placeholder for site visits
+        document.getElementById('visits').textContent = 12345; // Replace with actual site visit logic
+    </script>
+</body>
+</html>
