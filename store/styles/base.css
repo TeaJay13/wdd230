@@ -76,7 +76,9 @@ nav ul li a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
 }
+
 
 #middle-content{
     text-align: center;
@@ -88,8 +90,46 @@ nav ul li a:hover{
    align-items: center;
 }
 
+#middle-content p{
+   padding: 50px;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+
 #bottom-content{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 50px;
+}
+
+.footer-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    background-color: var(--header-color);
+    color: var(--background-color);
+    padding: 10px;
+}
+
+.footer-section-links ul li{
+    list-style: none;
+    text-align: left;
+}
+
+.footer-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: var(--accent-color);
+    color: var(--background-color);
+    text-align: center;
+}
+
+footer a{
+    color: var(--background-color);
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: var(--accent2-color);
 }
