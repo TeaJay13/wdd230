@@ -37,7 +37,7 @@
         "description": "Compact stove for cooking while camping.",
         "imageUrl": "images/stove.webp",
         "price": 49.99,
-        "featured": false
+        "featured": true
     },
     {
         "sku": "SKU006",
@@ -61,7 +61,7 @@
         "description": "Bright and adjustable headlamp for nighttime activities.",
         "imageUrl": "images/headlamp.webp",
         "price": 24.99,
-        "featured": false
+        "featured": true
     },
     {
         "sku": "SKU009",
