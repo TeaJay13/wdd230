@@ -3,7 +3,7 @@
         "sku": "SKU001",
         "name": "Hiking Backpack",
         "description": "Durable and spacious backpack designed for hiking.",
-        "imageUrl": "images/hiking-backpack.jpg",
+        "imageUrl": "images/backpack.webp",
         "price": 89.99,
         "featured": true
     },
@@ -11,7 +11,7 @@
         "sku": "SKU002",
         "name": "Camping Tent",
         "description": "Lightweight and weather-resistant tent for camping.",
-        "imageUrl": "images/camping-tent.jpg",
+        "imageUrl": "images/tent.webp",
         "price": 199.99,
         "featured": true
     },
@@ -19,7 +19,7 @@
         "sku": "SKU003",
         "name": "Sleeping Bag",
         "description": "Warm and compact sleeping bag for outdoor use.",
-        "imageUrl": "images/sleeping-bag.jpg",
+        "imageUrl": "images/sleepingbag.webp",
         "price": 79.99,
         "featured": false
     },
@@ -27,7 +27,7 @@
         "sku": "SKU004",
         "name": "Hiking Boots",
         "description": "Sturdy and comfortable boots for hiking.",
-        "imageUrl": "images/hiking-boots.jpg",
+        "imageUrl": "images/boots.webp",
         "price": 129.99,
         "featured": true
     },
@@ -35,7 +35,7 @@
         "sku": "SKU005",
         "name": "Portable Stove",
         "description": "Compact stove for cooking while camping.",
-        "imageUrl": "images/portable-stove.jpg",
+        "imageUrl": "images/stove.webp",
         "price": 49.99,
         "featured": false
     },
@@ -43,7 +43,7 @@
         "sku": "SKU006",
         "name": "Insulated Water Bottle",
         "description": "Bottle designed to keep drinks hot or cold.",
-        "imageUrl": "images/insulated-water-bottle.jpg",
+        "imageUrl": "images/waterbottle.webp",
         "price": 29.99,
         "featured": false
     },
@@ -51,7 +51,7 @@
         "sku": "SKU007",
         "name": "Trekking Poles",
         "description": "Adjustable poles for stability while hiking.",
-        "imageUrl": "images/trekking-poles.jpg",
+        "imageUrl": "images/poles.webp",
         "price": 39.99,
         "featured": false
     },
@@ -59,7 +59,7 @@
         "sku": "SKU008",
         "name": "Headlamp",
         "description": "Bright and adjustable headlamp for nighttime activities.",
-        "imageUrl": "images/headlamp.jpg",
+        "imageUrl": "images/headlamp.webp",
         "price": 24.99,
         "featured": false
     },
@@ -67,7 +67,7 @@
         "sku": "SKU009",
         "name": "Skiing Goggles",
         "description": "Anti-fog goggles for skiing and snowboarding.",
-        "imageUrl": "images/skiing-goggles.jpg",
+        "imageUrl": "images/goggles.webp",
         "price": 59.99,
         "featured": true
     },
@@ -75,7 +75,7 @@
         "sku": "SKU010",
         "name": "Climbing Harness",
         "description": "Safety harness for rock climbing.",
-        "imageUrl": "images/climbing-harness.jpg",
+        "imageUrl": "images/harness.webp",
         "price": 79.99,
         "featured": false
     },
@@ -83,7 +83,7 @@
         "sku": "SKU011",
         "name": "First Aid Kit",
         "description": "Essential first aid supplies in a portable kit.",
-        "imageUrl": "images/first-aid-kit.jpg",
+        "imageUrl": "images/firstaid.webp",
         "price": 19.99,
         "featured": false
     },
@@ -91,7 +91,7 @@
         "sku": "SKU012",
         "name": "Multi-Tool",
         "description": "Versatile tool with various functions for outdoor use.",
-        "imageUrl": "images/multi-tool.jpg",
+        "imageUrl": "images/multitool.webp",
         "price": 34.99,
         "featured": true
     }

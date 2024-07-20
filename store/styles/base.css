@@ -16,6 +16,13 @@ body{
 #content{
     margin: 0 auto;
     padding: 20px;
+    max-width: 1200px;
+}
+
+#content-au{
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
 }
 
 #topheader{
@@ -73,6 +80,37 @@ nav ul li a:hover{
     color: var(--accent2-color);
 }
 
+#hero-figure {
+    position: relative;
+    width: 100%;
+    margin: 20px 0;
+}
+
+#hero-image img{
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#featured-products{
+   padding: 10px;
+}
+
+.f-card{
+    margin: 5px 5px 5px 5px;
+}
+
+.f-product-imgs{
+    width: 100px;
+    height: auto;
+    padding: 10px;
+}
+
+.google-map{
+    padding: 10px;
+}
+
 .card{
     border: 1px solid var(--header-color);
     border-radius: 5px;
@@ -90,6 +128,11 @@ section{
     flex-direction: column;
     margin-top: 50px;
     gap: 10px;
+}
+
+#top-content iframe{
+    width: 100%;
+    height: 400px;
 }
 
 .product{
@@ -117,6 +160,12 @@ section{
     flex-direction: column;
     margin-bottom: 50px;
     gap: 10px;
+}
+
+.weather-icon{
+    background-color: var(--accent3-color);
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .day-forcast{
@@ -160,7 +209,7 @@ footer a:hover{
     flex-direction: column;
     text-align: center;
     margin-top: 50px;
-    padding: 20px;
+    margin-bottom: 20px;
     gap: 10px;
 }
 
@@ -168,12 +217,23 @@ footer a:hover{
     padding: 20px;
 }
 
+.au-image img{
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#top-content-au p{
+    padding: 20px;
+}
+
 #bottom-content-au{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 20px;
     margin-bottom: 50px;
-    padding: 20px;
     gap: 10px;
 }
 
@@ -196,7 +256,6 @@ footer a:hover{
 .product{
     text-align: center;
 }
-
 
 /* Grid view styles */
 #product-list.grid-view {
@@ -222,6 +281,10 @@ footer a:hover{
     border-radius: 10px;
     border: 1px solid var(--header-color);
     box-shadow: black 5px 5px 5px;
+}
+
+#product-list .product-imgs:hover {
+   box-shadow: black 0 0 10px;
 }
 
 #product-list.grid-view .product {

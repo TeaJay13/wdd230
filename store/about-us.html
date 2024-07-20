@@ -39,20 +39,25 @@
                 </ul>
             </nav>
 
-            <picture id="hero-image">
-                <source srcset="images/SomersetSmall.webp" media="(max-width: 600px)">
-                <source srcset="images/SomersetMed.webp" media="(min-width: 800px) and (max-width: 999px)">
-                <source srcset="images/SomersetLarge.webp" media="min-width: 1000px">
-                <img src="images/SomersetLarge.webp" alt="Responsive Hero Image">
-                <p id="hero-label">Equip Your Adventure</p>
-            </picture>
+            <figure id ="hero-figure">
+                <picture id="hero-image">
+                    <source srcset="images/hero-image-small.webp" media="(max-width: 600px)">
+                    <source srcset="images/hero-image-med.webp" media="(min-width: 800px) and (max-width: 999px)">
+                    <source srcset="images/hero-image-big.webp"  media="(min-width: 1000px)">
+                    <img src="images/hero-image-big.webp" alt="Responsive Hero Image">
+                </picture>
+            </figure>
         </header> 
         <main>
             <div id="top-content-au">
                 <section class="card">
                     <h2>About Us</h2>
                     <figure>
-                        <img src="images/placeholder.jpg" alt="About Us Image">
+                        <picture class="au-image">
+                            <source srcset="images/aboutus1small.webp" media="(max-width: 600px)">
+                            <source srcset="images/aboutus1big.webp"  media="(min-width: 1000px)">
+                            <img src="images/aboutus1big.webp" alt="About Us 1">
+                        </picture>
                         <figcaption>Our Team at MountainQuest Gear</figcaption>
                     </figure>
                     <p>Welcome to MountainQuest Gear, your number one source for all things outdoor. We're dedicated to giving you the very best of outdoor gear, with a focus on quality, customer service, and uniqueness.</p>
@@ -62,7 +67,11 @@
                 <section class="card">
                     <h2>Our Mission</h2>
                     <figure>
-                        <img src="images/placeholder.jpg" alt="Our Mission Image">
+                        <picture class="au-image">
+                            <source srcset="images/aboutus2small.webp" media="(max-width: 600px)">
+                            <source srcset="images/aboutus2big.webp"  media="(min-width: 1000px)">
+                            <img src="images/aboutus2big.webp" alt="About Us 2">
+                        </picture>
                         <figcaption>Exploring the Outdoors with MountainQuest Gear</figcaption>
                     </figure>
                     <p>Our mission is to provide high-quality, sustainable, and reliable outdoor gear to adventurers worldwide. We strive to inspire a love for the outdoors and a commitment to preserving our natural environment.</p>
@@ -104,6 +113,9 @@
                 <p>&copy;<span id='current-year'></span> - MountainQuest Gear. All Rights Reserved.</p>
                 <p>Last Modified: <span id="last-modified"></span></p>
                 <p>Site Visits: <span id='visits'></span></p>
+                <!-- Photos Credits: -->
+                <!-- Photo by <a href="https://unsplash.com/@mikejerskine?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mike Erskine</a> on <a href="https://unsplash.com/photos/people-having-a-bonfire-S_VbdMTsdiA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
+                <!-- Photo by Emir Anık: https://www.pexels.com/photo/a-hiking-tool-set-on-display-11419328/ -->
             </div>
         </footer>
     </div>
