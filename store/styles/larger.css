@@ -100,4 +100,12 @@
     margin-bottom: 20px;
     gap: 10px;
 }
+
+#right-content{
+    order: 1;
+}
+
+#left-content{
+    order: 2;
+}
 }

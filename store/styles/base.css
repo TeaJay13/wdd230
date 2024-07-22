@@ -378,6 +378,20 @@ footer a:hover{
 
 
 /* Order styling */
+#order-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    bottom: 20px;
+}
+
+#left-content{
+    order: 1;
+}
+
+#right-content{
+    order: 2;
+}
 
 .or-product-imgs{
     max-width: 300px;
