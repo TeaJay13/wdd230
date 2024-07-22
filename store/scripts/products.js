@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", async function() {
                 <h3>${product.name}</h3>
                 <p>${product.description}</p>
                 <p>$${product.price.toFixed(2)}</p>
-                <button data-sku="${product.sku}">Add to Cart</button>
+                <a href="order.html?id=${product.sku}" class="button">Buy Product</a>
             </div>
         `;
         productContainer.innerHTML += productCard;
