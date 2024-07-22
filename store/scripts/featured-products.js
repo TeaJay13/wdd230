@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", async function() {
     randomProducts.forEach(product => {
         const productCard = `
             <div class="card f-card">
-                <img class="product-imgs" loading="lazy" src="${product.imageUrl}" alt="${product.name}" height="300">
+                <img class="f-product-imgs" loading="lazy" src="${product.imageUrl}" alt="${product.name}" height="300">
                 <h3>${product.name}</h3>
                 <p>${product.description}</p>
                 <p>Price: $${product.price}</p>
