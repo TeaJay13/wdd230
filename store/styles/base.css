@@ -449,3 +449,13 @@ input:required:hover{
 input:valid:hover{
     background-color: lightgreen;
 }
+
+/* Contact Us Styling */
+
+#contact-us{
+    list-style: none;
+}
+
+#order-item{
+    list-style: none;
+}

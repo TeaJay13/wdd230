@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MountainQuest Gear - Order Confirmation.">
+    <meta name="author" content="TJ Strickland">
+
+    <meta property="og:title" content="MountainQuest Gear - Order Confirmation">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mountainquestgear.com/order-confirmation">
+    <meta name="contact" content="contact@mountainquestgear.com">
+
+    <title>Order Confirmation | MountainQuest Gear</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="favicon.ico">
+
+    <script src="scripts/hamburger-menu.js" defer></script>
+    <script src="scripts/footer-dates.js" defer></script>
+    <script src="scripts/order-confirmation.js" defer></script>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <div id="topheader">
+                <img id="header-img" src="images/outdoorgearlogo.webp" alt="MountainQuest Gear Logo">
+                <h1>MountainQuest Gear</h1>
+                <button id="menu-button" onclick="toggleMenu()">
+                    <span id="menu-icon">&#x2261;</span> 
+                </button>
+            </div>
+
+            <nav>
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                </ul>
+            </nav>
+        </header> 
+        <main>
+            <section>
+                <h2>Thank You for Your Order!</h2>
+                <p>We appreciate your business and are thrilled to have you as a customer. Your order has been received and is being processed.</p>
+
+                <section id="order-content" class="card">
+                    <div id="order-confirmation">
+                        <!-- Order details will be displayed here. -->
+                    </div>
+                </section>
+
+                <h3>Contact Us</h3>
+                <p>If there are any issues with your order, please feel free to contact us:</p>
+                <ul id="contact-us">
+                    <li>Email: <a href="mailto:contact@mountainquestgear.com">contact@mountainquestgear.com</a></li>
+                    <li>Phone: (123) 456-7890</li>
+                    <li>Address: 123 Outdoor Ave, Salt Lake City, UT 84101</li>
+                </ul>
+
+                <h3>Leave a Review</h3>
+                <p>We would love to hear your feedback! Please consider leaving a review on social media:</p>
+                <div class="social-media-links">
+                    <a href="#" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                </div>
+            </section>
+        </main>    
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section-links">
+                    <h3>Resources & Attribution</h3>
+                    <ul>
+                        <li><a href="https://openweathermap.org" target="_blank">OpenWeatherMap</a></li>
+                        <li><a href="https://www.freepik.com" target="_blank">Google Maps</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section-social">
+                    <h3>Follow Us</h3>
+                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="footer-section-contact">
+                    <h3>Contact Us</h3>
+                    <p>Email: <a href="mailto:contact@mountainquestgear.com">contact@mountainquestgear.com</a></p>
+                    <p>Phone: (123) 456-7890</p>
+                    <p>Address: 123 Outdoor Ave, Salt Lake City, UT 84101</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy;<span id='current-year'></span> -  MountainQuest Gear. All Rights Reserved.</p>
+                <p>Last Modified: <span id="last-modified"></span></p>
+                <p>Site Visits: <span id='visits'></span></p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
