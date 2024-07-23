@@ -305,6 +305,21 @@ footer a:hover{
     text-align: center;
 }
 
+#prod-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button{
+    color: var(--background-color);
+    background-color: var(--header-color);
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px 5px 5px 5px
+}
+
 /* Grid view styles */
 #product-list.grid-view {
     display: grid;
